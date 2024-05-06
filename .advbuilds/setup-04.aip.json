@@ -1,0 +1,16 @@
+{
+  "MainExe": "RegisterOrdinal.exe",
+  "ProductDetail": {
+    "ProductName": "DH.Ordinal"
+  },
+  "AdvancedInstallerShortcut": {
+    "Name": "DH.Ordinal",
+    "Target": "APPDIR\\RegisterOrdinal.exe",
+    "InDirectories": ["DesktopFolder", "StartMenuFolder\\DHG Pharma"],
+    "PathIcon": "Logo.ico"
+  },
+  "IconInControlPanel": {
+    "IsSetIcon": true,
+    "PathIcon": "Logo.ico"
+  }
+}
