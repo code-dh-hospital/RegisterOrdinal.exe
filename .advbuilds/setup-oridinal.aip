@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="21.3" version="21.3" Modules="simple" RootPath="." Language="en" Id="{99B198C5-80C7-4A8A-B5A1-CAA3A17853F0}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;FixupComponent;MsiXDiffComponent;MsixManifestEditorComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="ongtrieuhau861@gmail.com" ValueLocId="*"/>
+    <ROW Property="ARPCONTACT" Value="ongtrieuhau861@gmail.com"/>
+    <ROW Property="ARPHELPLINK" Value="https://github.com/dh-hos"/>
+    <ROW Property="ARPHELPTELEPHONE" Value="0988.255.863"/>
+    <ROW Property="ARPPRODUCTICON" Value="Logo.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="https://dh-his.com"/>
+    <ROW Property="ARPURLUPDATEINFO" Value="https://github.com/dh-hos"/>
+    <ROW Property="ExecuteVersion" Value="1.24.0506.5"/>
+    <ROW Property="Manufacturer" Value="DHG Pharma"/>
+    <ROW Property="ProductCode" Value="1033:{A0D85DD6-DEC2-4458-A9DD-00F8F86CF6F2} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="DH.Ordinal"/>
+    <ROW Property="ProductVersion" Value="1.24.0506.5" Options="4"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{35A8B27A-700F-49C3-B21A-B50786AC9B6D}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60Display" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DHGPharma_Dir" Directory_Parent="StartMenuFolder" DefaultDir="DHGPHA~1|DHG Pharma"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="StartMenuFolder" Directory_Parent="TARGETDIR" DefaultDir="STARTM~1|StartMenuFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="API3.SDK.dll" ComponentId="{41B414AB-2460-4FD0-9C55-25DF37CB7497}" Directory_="APPDIR" Attributes="0" KeyPath="API3.SDK.dll"/>
+    <ROW Component="APPDIR" ComponentId="{ABC351D0-2FDD-4185-A0FD-DEFA64FEDD5C}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="BouncyCastle.Crypto.dll" ComponentId="{CC9EEC92-6835-4AD6-9B96-0A0CF8516CEB}" Directory_="APPDIR" Attributes="0" KeyPath="BouncyCastle.Crypto.dll"/>
+    <ROW Component="ChilkatDotNet4.dll" ComponentId="{244EB6A0-04F7-433B-861A-961D86118A44}" Directory_="APPDIR" Attributes="256" KeyPath="ChilkatDotNet4.dll"/>
+    <ROW Component="Chuoi.dll" ComponentId="{89966AAE-E46C-4E55-8EDB-59EDC7E33BD7}" Directory_="APPDIR" Attributes="0" KeyPath="Chuoi.dll"/>
+    <ROW Component="ControlButton.dll" ComponentId="{A504B300-46D2-4AEE-8008-E6E3D64E4090}" Directory_="APPDIR" Attributes="0" KeyPath="ControlButton.dll"/>
+    <ROW Component="CrystalDecisions.CrystalReports.Engine.dll" ComponentId="{7AD6ADEA-A81D-43CD-BE56-52F12AD54372}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.CrystalReports.Engine.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.ClientDoc.dll" ComponentId="{8AC42728-78C5-41D2-8040-05F05E8CD538}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.ClientDoc.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.Com_1_monObjectModel.dll" ComponentId="{F71D16B6-B35D-4E1F-BCDE-140823E538D7}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.CommonObjectModel.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.CommLayer.dll" ComponentId="{B924BDED-11A5-455D-AC53-1C1485F1D1A7}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.CommLayer.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.CommonControls.dll" ComponentId="{B9166D9B-32B9-4226-8376-E40B984C935D}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.CommonControls.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.Controllers.dll" ComponentId="{B6BB559B-C5AC-4F95-A82F-08E0C4C46966}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.Controllers.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.CubeDefModel.dll" ComponentId="{52D561FB-4116-4F6E-B9AA-BCB098D2B3FD}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.CubeDefModel.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.DataDefModel.dll" ComponentId="{82BBE53E-1570-456E-8658-0D502CF06659}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.DataDefModel.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.DataSetConversion.dll" ComponentId="{EFE64330-6806-4A67-BF02-F3DB1747E8C2}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.DataSetConversion.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.ObjectFactory.dll" ComponentId="{440BC383-50DC-4022-8474-0609BA9638EC}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.ObjectFactory.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.Prompting.dll" ComponentId="{6E47DDC3-9BC0-4148-8190-D6B68C31D00E}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.Prompting.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.ReportDefModel.dll" ComponentId="{469BF8BD-A318-4F5B-823E-DD6C00A43DCC}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.ReportDefModel.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.XmlSerialize.dll" ComponentId="{C9CC6753-1933-45D6-B9F6-A5153A4C1FD1}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.XmlSerialize.dll"/>
+    <ROW Component="CrystalDecisions.ReportSource.dll" ComponentId="{A79CC646-9135-4E61-94F3-7BEA84C064C9}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportSource.dll"/>
+    <ROW Component="CrystalDecisions.Shared.dll" ComponentId="{E19A9369-E6CD-457C-8981-BE5A621447A5}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.Shared.dll"/>
+    <ROW Component="CrystalDecisions.Web.dll" ComponentId="{0F07389F-A52F-4BB6-836F-E19EC4BC0D77}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.Web.dll"/>
+    <ROW Component="CrystalDecisions.Windows.Forms.dll" ComponentId="{D24D92BB-0677-4E8E-B9DD-9713E1223B91}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.Windows.Forms.dll"/>
+    <ROW Component="Ctrl.dll" ComponentId="{D96EC6BE-B948-440E-BDBF-C43AB0053515}" Directory_="APPDIR" Attributes="0" KeyPath="Ctrl.dll"/>
+    <ROW Component="DH.Ctrl.dll" ComponentId="{C65E5767-F3D7-4DF4-9699-9A35A285D1D3}" Directory_="APPDIR" Attributes="0" KeyPath="DH.Ctrl.dll"/>
+    <ROW Component="DH.MsgBox.dll" ComponentId="{ADFDE38D-9A38-4127-B97B-575728DEB5AA}" Directory_="APPDIR" Attributes="0" KeyPath="DH.MsgBox.dll"/>
+    <ROW Component="DHGPharma" ComponentId="{3DB427AF-373D-44E9-ACDF-D0DAB2612F2A}" Directory_="DHGPharma_Dir" Attributes="0"/>
+    <ROW Component="DanhMuc.dll" ComponentId="{BDB26933-BFC6-4855-A17E-96CA0673AF16}" Directory_="APPDIR" Attributes="0" KeyPath="DanhMuc.dll"/>
+    <ROW Component="DevExpress.BonusSkins.v17.1.dll" ComponentId="{EC087D56-D384-43E7-B74E-5BD252F27698}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.BonusSkins.v17.1.dll"/>
+    <ROW Component="DevExpress.Charts.v17.1.Core.dll" ComponentId="{1CE6C0BA-DD65-4614-B5F6-773C05454219}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Charts.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.CodeParser.v17.1.dll" ComponentId="{FA4641A2-EAC9-4392-8CA5-4EC25C2182FB}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.CodeParser.v17.1.dll"/>
+    <ROW Component="DevExpress.Data.v17.1.dll" ComponentId="{DD805821-1393-4615-A92A-E6DA91CAB83E}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Data.v17.1.dll"/>
+    <ROW Component="DevExpress.DataAccess.v17.1.UI.dll" ComponentId="{CC20C68C-655B-40A1-A8EA-DD772C008F3A}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.DataAccess.v17.1.UI.dll"/>
+    <ROW Component="DevExpress.DataAccess.v17.1.dll" ComponentId="{4C1125A1-53F5-4110-8C3D-818F126DFA3F}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.DataAccess.v17.1.dll"/>
+    <ROW Component="DevExpress.Diagram.v17.1.Core.dll" ComponentId="{79374B8A-C94D-4355-99A1-FBA5823F1BB3}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Diagram.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.Docs.v17.1.dll" ComponentId="{7C773731-0E96-4F83-99FA-AF14E600E31E}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Docs.v17.1.dll"/>
+    <ROW Component="DevExpress.Images.v17.1.dll" ComponentId="{1BA48A4F-5973-4317-85A4-465F8A518770}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Images.v17.1.dll"/>
+    <ROW Component="DevExpress.Map.v17.1.Core.dll" ComponentId="{30756175-7938-48E1-9588-8BF548F18389}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Map.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.Office.v17.1.Core.dll" ComponentId="{32F63E72-FD61-4060-A136-EBDD6DB4AC7B}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Office.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.Patch.Common.dll" ComponentId="{58F4F4F2-5182-4A15-A8AF-185D845B7269}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Patch.Common.dll"/>
+    <ROW Component="DevExpress.Pdf.v17.1.Core.dll" ComponentId="{7EEDACC6-8ECF-4880-902E-E546D93B369A}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Pdf.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.Pdf.v17.1.Drawing.dll" ComponentId="{CD47586F-2453-434A-BD39-86A4A2A8EEBE}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Pdf.v17.1.Drawing.dll"/>
+    <ROW Component="DevExpress.PivotGrid.v17.1.Core.dll" ComponentId="{C55A9722-5D5C-4D2F-A01C-1521FF9B5DEC}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.PivotGrid.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.Printing.v17.1.Core.dll" ComponentId="{A9B37CAB-98F2-4CD6-86E1-AF81A1ED4440}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Printing.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.RichEdit.v17.1.Core.dll" ComponentId="{F3E2957B-70E0-43BB-B4AD-49D9D17686CF}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.RichEdit.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.RichEdit.v17.1.Export.dll" ComponentId="{F4C15F6F-F638-4F12-A949-6200E6A62CE2}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.RichEdit.v17.1.Export.dll"/>
+    <ROW Component="DevExpress.Snap.v17.1.Core.dll" ComponentId="{B3EE89B0-9EC7-4D69-BD16-E663EBF9FED7}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Snap.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.Snap.v17.1.Extensions.dll" ComponentId="{CF7E7BBD-8BAF-4E27-99D9-6974792ABE04}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Snap.v17.1.Extensions.dll"/>
+    <ROW Component="DevExpress.Snap.v17.1.dll" ComponentId="{744EBB3F-1B0C-48DD-950E-C27CE78D41E6}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Snap.v17.1.dll"/>
+    <ROW Component="DevExpress.Sparkline.v17.1.Core.dll" ComponentId="{BAAE6AAB-83C2-4F6E-9F3F-9A9FDA35115F}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Sparkline.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.Spreadsheet.v17.1.Core.dll" ComponentId="{79485474-F427-48D8-B1C6-ECB2CCFF9F25}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Spreadsheet.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.TreeMap.v17.1.Core.dll" ComponentId="{587E1572-0989-419E-B958-4DB9ED562B71}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.TreeMap.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.Utils.v17.1.UI.dll" ComponentId="{96552064-502C-40BC-B331-02297859B656}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Utils.v17.1.UI.dll"/>
+    <ROW Component="DevExpress.Utils.v17.1.dll" ComponentId="{A3EFB850-CA35-44D7-91C2-66E1EACAC710}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Utils.v17.1.dll"/>
+    <ROW Component="DevExpress.Web.ASPxThemes.v17.1.dll" ComponentId="{A7557C4A-D13F-40D1-90E4-CB10118A6DD6}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Web.ASPxThemes.v17.1.dll"/>
+    <ROW Component="DevExpress.Web.Resources.v17.1.dll" ComponentId="{F2185DBF-1648-42B2-8AAA-9581DECF1D36}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Web.Resources.v17.1.dll"/>
+    <ROW Component="DevExpress.Web.v17.1.dll" ComponentId="{F549AC78-7020-42E2-8148-FE15A0CC68AE}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Web.v17.1.dll"/>
+    <ROW Component="DevExpress.Xpo.v17.1.dll" ComponentId="{559AA3A1-A507-4BBB-9FE6-4ED8E2624538}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Xpo.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraBars.v17.1.dll" ComponentId="{6FA89DCD-BEA8-4C6B-9D2A-51BA80137E5D}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraBars.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraCharts.v17.1.Extensions.dll" ComponentId="{7CA9C436-15BE-4496-B436-3537F409786A}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraCharts.v17.1.Extensions.dll"/>
+    <ROW Component="DevExpress.XtraCharts.v17.1.UI.dll" ComponentId="{96CD0ADC-4A79-4BD9-88EA-4D0C68C022DB}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraCharts.v17.1.UI.dll"/>
+    <ROW Component="DevExpress.XtraCharts.v17.1.Wizard.dll" ComponentId="{B6C23CF7-7B16-4143-89EB-EF257EF2E8E6}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraCharts.v17.1.Wizard.dll"/>
+    <ROW Component="DevExpress.XtraCharts.v17.1.dll" ComponentId="{97710886-AA5C-45C6-972D-AFB23804A213}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraCharts.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraDiagram.v17.1.dll" ComponentId="{155860E2-A42B-415B-A5D8-274AA6C80E5C}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraDiagram.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraEditors.v17.1.dll" ComponentId="{3A751B6D-34F9-42FA-96BF-BB9724DC1E45}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraEditors.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraGauges.v17.1.Core.dll" ComponentId="{3CDAC248-9724-4A7F-B8CD-69FECB183589}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraGauges.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.XtraGrid.v17.1.dll" ComponentId="{B1BCCB39-BB84-4E9E-864D-996269AC1A62}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraGrid.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraLayout.v17.1.dll" ComponentId="{E218BF84-7BC8-484D-9599-183B97B40F11}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraLayout.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraNavBar.v17.1.dll" ComponentId="{EE8C100D-A9B2-4660-86BE-19239CD68DAB}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraNavBar.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraPdfViewer.v17.1.dll" ComponentId="{D510A0D1-C132-4BE9-96F0-7C0ED050D330}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraPdfViewer.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraPivotGrid.v17.1.dll" ComponentId="{BE7A7F29-428E-4374-8DC0-E6A678AB41BD}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraPivotGrid.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraPrinting.v17.1.dll" ComponentId="{B2FA2807-CBAE-4D06-9181-FEC4DF0E89B6}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraPrinting.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraReports.v17.1.Extensions.dll" ComponentId="{720E7C65-4E27-4520-B1E1-A85799391455}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraReports.v17.1.Extensions.dll"/>
+    <ROW Component="DevExpress.XtraReports.v17.1.Web.dll" ComponentId="{A69ADDC5-FD96-47C3-ABFD-9CB7261911A5}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraReports.v17.1.Web.dll"/>
+    <ROW Component="DevExpress.XtraReports.v17.1.dll" ComponentId="{0BC74CCC-F6DB-4593-B305-CE9D837D8D0E}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraReports.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraRichEdit.v17.1.Extensions.dll" ComponentId="{9E628D9A-F9F5-4522-B992-6C76C3625203}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraRichEdit.v17.1.Extensions.dll"/>
+    <ROW Component="DevExpress.XtraRichEdit.v17.1.dll" ComponentId="{8C9CD1CF-C205-4C34-AD90-33366D7C3C04}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraRichEdit.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraScheduler.v17.1.Core.dll" ComponentId="{D690E48C-1C8C-4350-880D-7ADF8672ABA6}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraScheduler.v17.1.Core.dll"/>
+    <ROW Component="DevExpress.XtraScheduler.v17.1.Reporting.Extensions.dll" ComponentId="{EBD51682-856C-4593-854D-EDDD0A01704F}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraScheduler.v17.1.Reporting.Extensions.dll"/>
+    <ROW Component="DevExpress.XtraScheduler.v17.1.dll" ComponentId="{ECB6CF4A-CBB3-4BC9-9999-3A177D2894F3}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraScheduler.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraSpreadsheet.v17.1.dll" ComponentId="{541C191D-8F95-408B-8799-07A3C6EF2480}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraSpreadsheet.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraTreeList.v17.1.dll" ComponentId="{E1E0489F-DEB1-408F-B270-57059A1252E6}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraTreeList.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraTreeMap.v17.1.dll" ComponentId="{1188B8F0-1BA3-448B-9168-99F0042B1C8F}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraTreeMap.v17.1.dll"/>
+    <ROW Component="DevExpress.XtraVerticalGrid.v17.1.dll" ComponentId="{37BDB99C-3FD7-44DE-9782-13ACFC18C233}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraVerticalGrid.v17.1.dll"/>
+    <ROW Component="EPPlus.dll" ComponentId="{F1440EF3-BB6B-43F8-8242-77CEC1D43D9F}" Directory_="APPDIR" Attributes="0" KeyPath="EPPlus.dll"/>
+    <ROW Component="EntityFramework.dll" ComponentId="{AA5DD4DF-5B01-4A21-9B9F-E66149DD5089}" Directory_="APPDIR" Attributes="0" KeyPath="EntityFramework.dll"/>
+    <ROW Component="Excel.dll" ComponentId="{D5318E3A-01CE-45B7-BDC4-2272679D3B2F}" Directory_="APPDIR" Attributes="0" KeyPath="Excel.dll"/>
+    <ROW Component="FlashControlV71.dll" ComponentId="{BBB5F237-6F1F-4F29-8191-2CCFAC231BDC}" Directory_="APPDIR" Attributes="0" KeyPath="FlashControlV71.dll"/>
+    <ROW Component="Google.Apis.Auth.dll" ComponentId="{A9C72355-877C-4639-9EC3-A2151F292140}" Directory_="APPDIR" Attributes="0" KeyPath="Google.Apis.Auth.dll"/>
+    <ROW Component="Google.Apis.Core.dll" ComponentId="{73E0E3F2-451A-4665-9E38-B63371AB7C49}" Directory_="APPDIR" Attributes="0" KeyPath="Google.Apis.Core.dll"/>
+    <ROW Component="Google.Apis.Drive.v3.dll" ComponentId="{3BC51E35-C407-431D-82DA-6DAEF01AF912}" Directory_="APPDIR" Attributes="0" KeyPath="Google.Apis.Drive.v3.dll"/>
+    <ROW Component="Google.Apis.dll" ComponentId="{6E842D07-B1A4-4217-947B-9037E71C8EC9}" Directory_="APPDIR" Attributes="0" KeyPath="Google.Apis.dll"/>
+    <ROW Component="ICSharpCode.SharpZipLib.dll" ComponentId="{9D96E76A-AA99-4C8A-A5AD-9EB4E7CB94A6}" Directory_="APPDIR" Attributes="0" KeyPath="ICSharpCode.SharpZipLib.dll"/>
+    <ROW Component="Interop.Office.dll" ComponentId="{1263AED7-7E6D-4A60-BBCB-B7842EF6074B}" Directory_="APPDIR" Attributes="0" KeyPath="Interop.Office.dll"/>
+    <ROW Component="Interop.Word.dll" ComponentId="{5325D669-6E63-474B-8F90-61FE49D26C48}" Directory_="APPDIR" Attributes="0" KeyPath="Interop.Word.dll"/>
+    <ROW Component="Janus.Data.v3.dll" ComponentId="{6E72F6B2-75BC-44E4-9E7A-3B4389F3EC47}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Data.v3.dll"/>
+    <ROW Component="Janus.Windows.ButtonBar.v3.dll" ComponentId="{B16E4458-31B8-4D94-A217-69BA929B27DD}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.ButtonBar.v3.dll"/>
+    <ROW Component="Janus.Windows.CalendarCombo.v3.dll" ComponentId="{139C6B68-546C-4B31-B0FD-BE367BA86BD4}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.CalendarCombo.v3.dll"/>
+    <ROW Component="Janus.Windows.Common.v3.dll" ComponentId="{35EF02F1-0197-4B46-B6F3-DFCB1DD5D41F}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.Common.v3.dll"/>
+    <ROW Component="Janus.Windows.ExplorerBar.v3.dll" ComponentId="{13CA962C-C689-4ACC-A6B5-F39881FB08F5}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.ExplorerBar.v3.dll"/>
+    <ROW Component="Janus.Windows.FilterEditor.v3.dll" ComponentId="{FFCF56D0-8C98-4A43-9A3A-CFF3E5FF71A1}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.FilterEditor.v3.dll"/>
+    <ROW Component="Janus.Windows.GridEX.v3.dll" ComponentId="{70FB3A44-8082-4D8C-ABC3-222E9BEDCA76}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.GridEX.v3.dll"/>
+    <ROW Component="Janus.Windows.Ribbon.v3.dll" ComponentId="{38453FA1-2BF5-4138-A9F6-BF7D6AD92512}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.Ribbon.v3.dll"/>
+    <ROW Component="Janus.Windows.Schedule.v3.dll" ComponentId="{59C2BC4F-5D44-4B07-9260-0A5C129D6A58}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.Schedule.v3.dll"/>
+    <ROW Component="Janus.Windows.TimeLine.v3.dll" ComponentId="{9DEB759D-E02A-4F24-9791-6E57EE9CCA28}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.TimeLine.v3.dll"/>
+    <ROW Component="Janus.Windows.UI.v3.dll" ComponentId="{1E779693-58E0-4984-B73C-584865C47AA7}" Directory_="APPDIR" Attributes="0" KeyPath="Janus.Windows.UI.v3.dll"/>
+    <ROW Component="LibraryApp.dll" ComponentId="{97745B6E-5FC4-4E36-9210-5A7A5423BA6A}" Directory_="APPDIR" Attributes="0" KeyPath="LibraryApp.dll"/>
+    <ROW Component="License.dll" ComponentId="{BB53DD72-26DA-4733-9F05-C1F31E37C4D5}" Directory_="APPDIR" Attributes="0" KeyPath="License.dll"/>
+    <ROW Component="List.dll" ComponentId="{98B0B613-36D6-4C25-BBB9-751E67A967B2}" Directory_="APPDIR" Attributes="0" KeyPath="List.dll"/>
+    <ROW Component="MessageBoxAdv.dll" ComponentId="{0E326887-3C63-403F-A8B4-C09D859EF0A9}" Directory_="APPDIR" Attributes="0" KeyPath="MessageBoxAdv.dll"/>
+    <ROW Component="Mono.Security.dll" ComponentId="{2348ADB7-53DB-48CF-B8CB-EB5D7B7D641D}" Directory_="APPDIR" Attributes="0" KeyPath="Mono.Security.dll"/>
+    <ROW Component="Newtonsoft.Json.dll" ComponentId="{1A90EA43-6BB2-40F1-9449-5F363D7620F3}" Directory_="APPDIR" Attributes="0" KeyPath="Newtonsoft.Json.dll"/>
+    <ROW Component="Npgsql.EntityFramework.dll" ComponentId="{0727568E-3497-4708-8324-AD0ADDFA0372}" Directory_="APPDIR" Attributes="0" KeyPath="Npgsql.EntityFramework.dll"/>
+    <ROW Component="Npgsql.EntityFrameworkLegacy.dll" ComponentId="{BB99156D-E650-4271-BB01-1A2308BBF0FA}" Directory_="APPDIR" Attributes="0" KeyPath="Npgsql.EntityFrameworkLegacy.dll"/>
+    <ROW Component="Npgsql.dll" ComponentId="{57F1BB41-DE3E-4EF3-BB07-AB5CF3285D56}" Directory_="APPDIR" Attributes="0" KeyPath="Npgsql.dll"/>
+    <ROW Component="OTH.Adapter.dll" ComponentId="{3BB1D9D3-9482-47AD-A96F-24C2405C1E97}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.Adapter.dll"/>
+    <ROW Component="OTH.AppStore.Core.dll" ComponentId="{37B4B049-13C8-47DC-B3D1-407407BD98AE}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.AppStore.Core.dll"/>
+    <ROW Component="OTH.ChilkatRR.dll" ComponentId="{11D27C76-3F3B-4556-A96D-A9EF2C092CF6}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.ChilkatRR.dll"/>
+    <ROW Component="OTH.Common.dll" ComponentId="{75668ACC-9F6E-4680-B1FB-4EB5B6977538}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.Common.dll"/>
+    <ROW Component="OTH.Entity.dll" ComponentId="{673C6701-635A-47B7-A43A-172070E0574E}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.Entity.dll"/>
+    <ROW Component="OTH.Entity.v.1.0.dll" ComponentId="{7C0F9B8A-12CB-4AD8-865C-91BE282DB4E0}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.Entity.v.1.0.dll"/>
+    <ROW Component="OTH.PAY.SHB.Apis.dll" ComponentId="{30734085-2BDC-4A8B-AB7B-13FC9773DD01}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.PAY.SHB.Apis.dll"/>
+    <ROW Component="OTH.PAY.ViettinBank.Apis.Leasedline.dll" ComponentId="{B8E80E00-57A2-4648-8813-07DF17C5F825}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.PAY.ViettinBank.Apis.Leasedline.dll"/>
+    <ROW Component="OTH.PAY.ViettinBank.Apis.Net.dll" ComponentId="{9D1E1463-969F-4256-AD0E-F73F542C20F7}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.PAY.ViettinBank.Apis.Net.dll"/>
+    <ROW Component="OTH.PAY.ViettinBank.Crypto.dll" ComponentId="{A52CAF49-D4AD-4D16-A3AD-E8A1C211F379}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.PAY.ViettinBank.Crypto.dll"/>
+    <ROW Component="OTH.PAY.ViettinBank.Hos.dll" ComponentId="{26C2DACB-A19D-4DBE-8FAC-9B2F8798190F}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.PAY.ViettinBank.Hos.dll"/>
+    <ROW Component="OTH.Resources.dll" ComponentId="{80C01F20-AFD1-4A16-8656-4646EC4AB6A2}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.Resources.dll"/>
+    <ROW Component="OTH.SQL.dll" ComponentId="{37E47319-5CD0-4478-AD8E-16E54ABEDCDF}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.SQL.dll"/>
+    <ROW Component="OTH.Selenium.dll" ComponentId="{EE695757-32B1-4DBB-831B-55528A540C39}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.Selenium.dll"/>
+    <ROW Component="OTH.WebServices.dll" ComponentId="{AF898245-FF16-4E3E-9642-2F381E32ACF1}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.WebServices.dll"/>
+    <ROW Component="OTH.XControl.dll" ComponentId="{F6BA20CC-2105-4408-8A82-6A9BBF3C860F}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.XControl.dll"/>
+    <ROW Component="OTH.dll" ComponentId="{A566CA78-FD1B-43EC-8811-87756352809B}" Directory_="APPDIR" Attributes="0" KeyPath="OTH.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{BE89D415-DE86-4877-B2BF-9D3670B19894}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="RegisterOrdinal.exe" ComponentId="{B16B7712-0FB9-46F5-A651-38606DF9F199}" Directory_="APPDIR" Attributes="0" KeyPath="RegisterOrdinal.exe"/>
+    <ROW Component="ReportViewer.dll" ComponentId="{FA619D99-8C90-4D9B-BD92-467ADA202D69}" Directory_="APPDIR" Attributes="0" KeyPath="ReportViewer.dll"/>
+    <ROW Component="RestSharp.dll" ComponentId="{18C08C5F-FC47-4BEE-8770-CEA5B028F79D}" Directory_="APPDIR" Attributes="0" KeyPath="RestSharp.dll"/>
+    <ROW Component="Roo.Exe.dll" ComponentId="{7105B227-4F9B-43DF-897D-A27FE9249F7C}" Directory_="APPDIR" Attributes="0" KeyPath="Roo.Exe.dll"/>
+    <ROW Component="SetupPrintDlg.dll" ComponentId="{46025F3A-396E-42B1-9B31-5A09F7805EF0}" Directory_="APPDIR" Attributes="0" KeyPath="SetupPrintDlg.dll"/>
+    <ROW Component="ShockwaveFlashObjects.dll" ComponentId="{3DA35979-C91B-4493-96D3-3153F6BAAFFA}" Directory_="APPDIR" Attributes="0" KeyPath="ShockwaveFlashObjects.dll"/>
+    <ROW Component="WebDriver.Support.dll" ComponentId="{1C1F9A0F-D758-42E3-8C1C-84A45DEA515E}" Directory_="APPDIR" Attributes="0" KeyPath="WebDriver.Support.dll"/>
+    <ROW Component="WebDriver.dll" ComponentId="{8EFD7C2B-2363-46CB-9C39-206C21E513B8}" Directory_="APPDIR" Attributes="0" KeyPath="WebDriver.dll"/>
+    <ROW Component="WindowsHookLib.dll" ComponentId="{7F063626-D3B1-4E1C-8AE4-F6CC94AFBE54}" Directory_="APPDIR" Attributes="0" KeyPath="WindowsHookLib.dll"/>
+    <ROW Component="XtraRPT.dll" ComponentId="{F7DF7AAF-7043-4756-9357-AFAD20095CA6}" Directory_="APPDIR" Attributes="0" KeyPath="XtraRPT.dll"/>
+    <ROW Component="log4net.dll" ComponentId="{49CA7959-D793-4DCA-BF87-890D8AE6BEA4}" Directory_="APPDIR" Attributes="0" KeyPath="log4net.dll"/>
+    <ROW Component="phieudangky.doc" ComponentId="{D7267707-D663-4029-811D-B11D1DE4E965}" Directory_="APPDIR" Attributes="0" KeyPath="phieudangky.doc" Type="0"/>
+    <ROW Component="vnConvert.dll" ComponentId="{02FC9073-E79B-4AA8-A0EA-5D4FF044DA6F}" Directory_="APPDIR" Attributes="0" KeyPath="vnConvert.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="API3.SDK.dll" Component_="API3.SDK.dll" FileName="API3SD~1.DLL|API3.SDK.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\API3.SDK.dll" SelfReg="false"/>
+    <ROW File="BouncyCastle.Crypto.dll" Component_="BouncyCastle.Crypto.dll" FileName="BOUNCY~1.DLL|BouncyCastle.Crypto.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\BouncyCastle.Crypto.dll" SelfReg="false"/>
+    <ROW File="ChilkatDotNet4.dll" Component_="ChilkatDotNet4.dll" FileName="CHILKA~1.DLL|ChilkatDotNet4.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\ChilkatDotNet4.dll" SelfReg="false"/>
+    <ROW File="Chuoi.dll" Component_="Chuoi.dll" FileName="Chuoi.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Chuoi.dll" SelfReg="false"/>
+    <ROW File="ControlButton.dll" Component_="ControlButton.dll" FileName="CONTRO~1.DLL|ControlButton.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\ControlButton.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.CrystalReports.Engine.dll" Component_="CrystalDecisions.CrystalReports.Engine.dll" FileName="CRYSTA~1.DLL|CrystalDecisions.CrystalReports.Engine.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.CrystalReports.Engine.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.ClientDoc.dll" Component_="CrystalDecisions.ReportAppServer.ClientDoc.dll" FileName="CRYSTA~2.DLL|CrystalDecisions.ReportAppServer.ClientDoc.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.ReportAppServer.ClientDoc.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CommLayer.dll" Component_="CrystalDecisions.ReportAppServer.CommLayer.dll" FileName="CRYSTA~3.DLL|CrystalDecisions.ReportAppServer.CommLayer.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.ReportAppServer.CommLayer.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CommonControls.dll" Component_="CrystalDecisions.ReportAppServer.CommonControls.dll" FileName="CRYSTA~4.DLL|CrystalDecisions.ReportAppServer.CommonControls.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.ReportAppServer.CommonControls.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CommonObjectModel.dll" Component_="CrystalDecisions.ReportAppServer.Com_1_monObjectModel.dll" FileName="CRYSTA~5.DLL|CrystalDecisions.ReportAppServer.CommonObjectModel.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.ReportAppServer.CommonObjectModel.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.Controllers.dll" Component_="CrystalDecisions.ReportAppServer.Controllers.dll" FileName="CRYSTA~6.DLL|CrystalDecisions.ReportAppServer.Controllers.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.ReportAppServer.Controllers.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CubeDefModel.dll" Component_="CrystalDecisions.ReportAppServer.CubeDefModel.dll" FileName="CRYSTA~7.DLL|CrystalDecisions.ReportAppServer.CubeDefModel.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.ReportAppServer.CubeDefModel.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.DataDefModel.dll" Component_="CrystalDecisions.ReportAppServer.DataDefModel.dll" FileName="CRYSTA~8.DLL|CrystalDecisions.ReportAppServer.DataDefModel.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.ReportAppServer.DataDefModel.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.DataSetConversion.dll" Component_="CrystalDecisions.ReportAppServer.DataSetConversion.dll" FileName="CRYSTA~9.DLL|CrystalDecisions.ReportAppServer.DataSetConversion.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.ReportAppServer.DataSetConversion.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.ObjectFactory.dll" Component_="CrystalDecisions.ReportAppServer.ObjectFactory.dll" FileName="CRYST~10.DLL|CrystalDecisions.ReportAppServer.ObjectFactory.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.ReportAppServer.ObjectFactory.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.Prompting.dll" Component_="CrystalDecisions.ReportAppServer.Prompting.dll" FileName="CRYST~11.DLL|CrystalDecisions.ReportAppServer.Prompting.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.ReportAppServer.Prompting.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.ReportDefModel.dll" Component_="CrystalDecisions.ReportAppServer.ReportDefModel.dll" FileName="CRYST~12.DLL|CrystalDecisions.ReportAppServer.ReportDefModel.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.ReportAppServer.ReportDefModel.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.XmlSerialize.dll" Component_="CrystalDecisions.ReportAppServer.XmlSerialize.dll" FileName="CRYST~13.DLL|CrystalDecisions.ReportAppServer.XmlSerialize.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.ReportAppServer.XmlSerialize.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportSource.dll" Component_="CrystalDecisions.ReportSource.dll" FileName="CRYST~14.DLL|CrystalDecisions.ReportSource.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.ReportSource.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.Shared.dll" Component_="CrystalDecisions.Shared.dll" FileName="CRYST~15.DLL|CrystalDecisions.Shared.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.Shared.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.Web.dll" Component_="CrystalDecisions.Web.dll" FileName="CRYST~16.DLL|CrystalDecisions.Web.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.Web.dll" SelfReg="false"/>
+    <ROW File="CrystalDecisions.Windows.Forms.dll" Component_="CrystalDecisions.Windows.Forms.dll" FileName="CRYST~17.DLL|CrystalDecisions.Windows.Forms.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\CrystalDecisions.Windows.Forms.dll" SelfReg="false"/>
+    <ROW File="Ctrl.dll" Component_="Ctrl.dll" FileName="Ctrl.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Ctrl.dll" SelfReg="false"/>
+    <ROW File="DanhMuc.dll" Component_="DanhMuc.dll" FileName="DanhMuc.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DanhMuc.dll" SelfReg="false"/>
+    <ROW File="DevExpress.BonusSkins.v17.1.dll" Component_="DevExpress.BonusSkins.v17.1.dll" FileName="DEVEXP~1.DLL|DevExpress.BonusSkins.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.BonusSkins.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Charts.v17.1.Core.dll" Component_="DevExpress.Charts.v17.1.Core.dll" FileName="DEVEXP~2.DLL|DevExpress.Charts.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Charts.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.CodeParser.v17.1.dll" Component_="DevExpress.CodeParser.v17.1.dll" FileName="DEVEXP~3.DLL|DevExpress.CodeParser.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.CodeParser.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Data.v17.1.dll" Component_="DevExpress.Data.v17.1.dll" FileName="DEVEXP~4.DLL|DevExpress.Data.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Data.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.DataAccess.v17.1.dll" Component_="DevExpress.DataAccess.v17.1.dll" FileName="DEVEXP~5.DLL|DevExpress.DataAccess.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.DataAccess.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.DataAccess.v17.1.UI.dll" Component_="DevExpress.DataAccess.v17.1.UI.dll" FileName="DEVEXP~6.DLL|DevExpress.DataAccess.v17.1.UI.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.DataAccess.v17.1.UI.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Diagram.v17.1.Core.dll" Component_="DevExpress.Diagram.v17.1.Core.dll" FileName="DEVEXP~7.DLL|DevExpress.Diagram.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Diagram.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Docs.v17.1.dll" Component_="DevExpress.Docs.v17.1.dll" FileName="DEVEXP~8.DLL|DevExpress.Docs.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Docs.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Images.v17.1.dll" Component_="DevExpress.Images.v17.1.dll" FileName="DEVEXP~9.DLL|DevExpress.Images.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Images.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Map.v17.1.Core.dll" Component_="DevExpress.Map.v17.1.Core.dll" FileName="DEVEX~10.DLL|DevExpress.Map.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Map.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Office.v17.1.Core.dll" Component_="DevExpress.Office.v17.1.Core.dll" FileName="DEVEX~11.DLL|DevExpress.Office.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Office.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Patch.Common.dll" Component_="DevExpress.Patch.Common.dll" FileName="DEVEX~12.DLL|DevExpress.Patch.Common.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Patch.Common.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Pdf.v17.1.Core.dll" Component_="DevExpress.Pdf.v17.1.Core.dll" FileName="DEVEX~13.DLL|DevExpress.Pdf.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Pdf.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Pdf.v17.1.Drawing.dll" Component_="DevExpress.Pdf.v17.1.Drawing.dll" FileName="DEVEX~14.DLL|DevExpress.Pdf.v17.1.Drawing.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Pdf.v17.1.Drawing.dll" SelfReg="false"/>
+    <ROW File="DevExpress.PivotGrid.v17.1.Core.dll" Component_="DevExpress.PivotGrid.v17.1.Core.dll" FileName="DEVEX~15.DLL|DevExpress.PivotGrid.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.PivotGrid.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Printing.v17.1.Core.dll" Component_="DevExpress.Printing.v17.1.Core.dll" FileName="DEVEX~16.DLL|DevExpress.Printing.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Printing.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.RichEdit.v17.1.Core.dll" Component_="DevExpress.RichEdit.v17.1.Core.dll" FileName="DEVEX~17.DLL|DevExpress.RichEdit.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.RichEdit.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.RichEdit.v17.1.Export.dll" Component_="DevExpress.RichEdit.v17.1.Export.dll" FileName="DEVEX~18.DLL|DevExpress.RichEdit.v17.1.Export.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.RichEdit.v17.1.Export.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Snap.v17.1.Core.dll" Component_="DevExpress.Snap.v17.1.Core.dll" FileName="DEVEX~19.DLL|DevExpress.Snap.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Snap.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Snap.v17.1.dll" Component_="DevExpress.Snap.v17.1.dll" FileName="DEVEX~20.DLL|DevExpress.Snap.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Snap.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Snap.v17.1.Extensions.dll" Component_="DevExpress.Snap.v17.1.Extensions.dll" FileName="DEVEX~21.DLL|DevExpress.Snap.v17.1.Extensions.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Snap.v17.1.Extensions.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Sparkline.v17.1.Core.dll" Component_="DevExpress.Sparkline.v17.1.Core.dll" FileName="DEVEX~22.DLL|DevExpress.Sparkline.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Sparkline.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Spreadsheet.v17.1.Core.dll" Component_="DevExpress.Spreadsheet.v17.1.Core.dll" FileName="DEVEX~23.DLL|DevExpress.Spreadsheet.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Spreadsheet.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.TreeMap.v17.1.Core.dll" Component_="DevExpress.TreeMap.v17.1.Core.dll" FileName="DEVEX~24.DLL|DevExpress.TreeMap.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.TreeMap.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Utils.v17.1.dll" Component_="DevExpress.Utils.v17.1.dll" FileName="DEVEX~25.DLL|DevExpress.Utils.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Utils.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Utils.v17.1.UI.dll" Component_="DevExpress.Utils.v17.1.UI.dll" FileName="DEVEX~26.DLL|DevExpress.Utils.v17.1.UI.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Utils.v17.1.UI.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Web.ASPxThemes.v17.1.dll" Component_="DevExpress.Web.ASPxThemes.v17.1.dll" FileName="DEVEX~27.DLL|DevExpress.Web.ASPxThemes.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Web.ASPxThemes.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Web.Resources.v17.1.dll" Component_="DevExpress.Web.Resources.v17.1.dll" FileName="DEVEX~28.DLL|DevExpress.Web.Resources.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Web.Resources.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Web.v17.1.dll" Component_="DevExpress.Web.v17.1.dll" FileName="DEVEX~29.DLL|DevExpress.Web.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Web.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.Xpo.v17.1.dll" Component_="DevExpress.Xpo.v17.1.dll" FileName="DEVEX~30.DLL|DevExpress.Xpo.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.Xpo.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraBars.v17.1.dll" Component_="DevExpress.XtraBars.v17.1.dll" FileName="DEVEX~31.DLL|DevExpress.XtraBars.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraBars.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraCharts.v17.1.dll" Component_="DevExpress.XtraCharts.v17.1.dll" FileName="DEVEX~32.DLL|DevExpress.XtraCharts.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraCharts.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraCharts.v17.1.Extensions.dll" Component_="DevExpress.XtraCharts.v17.1.Extensions.dll" FileName="DEVEX~33.DLL|DevExpress.XtraCharts.v17.1.Extensions.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraCharts.v17.1.Extensions.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraCharts.v17.1.UI.dll" Component_="DevExpress.XtraCharts.v17.1.UI.dll" FileName="DEVEX~34.DLL|DevExpress.XtraCharts.v17.1.UI.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraCharts.v17.1.UI.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraCharts.v17.1.Wizard.dll" Component_="DevExpress.XtraCharts.v17.1.Wizard.dll" FileName="DEVEX~35.DLL|DevExpress.XtraCharts.v17.1.Wizard.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraCharts.v17.1.Wizard.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraDiagram.v17.1.dll" Component_="DevExpress.XtraDiagram.v17.1.dll" FileName="DEVEX~36.DLL|DevExpress.XtraDiagram.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraDiagram.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraEditors.v17.1.dll" Component_="DevExpress.XtraEditors.v17.1.dll" FileName="DEVEX~37.DLL|DevExpress.XtraEditors.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraEditors.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraGauges.v17.1.Core.dll" Component_="DevExpress.XtraGauges.v17.1.Core.dll" FileName="DEVEX~38.DLL|DevExpress.XtraGauges.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraGauges.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraGrid.v17.1.dll" Component_="DevExpress.XtraGrid.v17.1.dll" FileName="DEVEX~39.DLL|DevExpress.XtraGrid.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraGrid.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraLayout.v17.1.dll" Component_="DevExpress.XtraLayout.v17.1.dll" FileName="DEVEX~40.DLL|DevExpress.XtraLayout.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraLayout.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraNavBar.v17.1.dll" Component_="DevExpress.XtraNavBar.v17.1.dll" FileName="DEVEX~41.DLL|DevExpress.XtraNavBar.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraNavBar.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraPdfViewer.v17.1.dll" Component_="DevExpress.XtraPdfViewer.v17.1.dll" FileName="DEVEX~42.DLL|DevExpress.XtraPdfViewer.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraPdfViewer.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraPivotGrid.v17.1.dll" Component_="DevExpress.XtraPivotGrid.v17.1.dll" FileName="DEVEX~43.DLL|DevExpress.XtraPivotGrid.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraPivotGrid.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraPrinting.v17.1.dll" Component_="DevExpress.XtraPrinting.v17.1.dll" FileName="DEVEX~44.DLL|DevExpress.XtraPrinting.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraPrinting.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraReports.v17.1.dll" Component_="DevExpress.XtraReports.v17.1.dll" FileName="DEVEX~45.DLL|DevExpress.XtraReports.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraReports.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraReports.v17.1.Extensions.dll" Component_="DevExpress.XtraReports.v17.1.Extensions.dll" FileName="DEVEX~46.DLL|DevExpress.XtraReports.v17.1.Extensions.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraReports.v17.1.Extensions.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraReports.v17.1.Web.dll" Component_="DevExpress.XtraReports.v17.1.Web.dll" FileName="DEVEX~47.DLL|DevExpress.XtraReports.v17.1.Web.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraReports.v17.1.Web.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraRichEdit.v17.1.dll" Component_="DevExpress.XtraRichEdit.v17.1.dll" FileName="DEVEX~48.DLL|DevExpress.XtraRichEdit.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraRichEdit.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraRichEdit.v17.1.Extensions.dll" Component_="DevExpress.XtraRichEdit.v17.1.Extensions.dll" FileName="DEVEX~49.DLL|DevExpress.XtraRichEdit.v17.1.Extensions.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraRichEdit.v17.1.Extensions.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraScheduler.v17.1.Core.dll" Component_="DevExpress.XtraScheduler.v17.1.Core.dll" FileName="DEVEX~50.DLL|DevExpress.XtraScheduler.v17.1.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraScheduler.v17.1.Core.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraScheduler.v17.1.dll" Component_="DevExpress.XtraScheduler.v17.1.dll" FileName="DEVEX~51.DLL|DevExpress.XtraScheduler.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraScheduler.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraScheduler.v17.1.Reporting.Extensions.dll" Component_="DevExpress.XtraScheduler.v17.1.Reporting.Extensions.dll" FileName="DEVEX~52.DLL|DevExpress.XtraScheduler.v17.1.Reporting.Extensions.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraScheduler.v17.1.Reporting.Extensions.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraSpreadsheet.v17.1.dll" Component_="DevExpress.XtraSpreadsheet.v17.1.dll" FileName="DEVEX~53.DLL|DevExpress.XtraSpreadsheet.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraSpreadsheet.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraTreeList.v17.1.dll" Component_="DevExpress.XtraTreeList.v17.1.dll" FileName="DEVEX~54.DLL|DevExpress.XtraTreeList.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraTreeList.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraTreeMap.v17.1.dll" Component_="DevExpress.XtraTreeMap.v17.1.dll" FileName="DEVEX~55.DLL|DevExpress.XtraTreeMap.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraTreeMap.v17.1.dll" SelfReg="false"/>
+    <ROW File="DevExpress.XtraVerticalGrid.v17.1.dll" Component_="DevExpress.XtraVerticalGrid.v17.1.dll" FileName="DEVEX~56.DLL|DevExpress.XtraVerticalGrid.v17.1.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DevExpress.XtraVerticalGrid.v17.1.dll" SelfReg="false"/>
+    <ROW File="DH.Ctrl.dll" Component_="DH.Ctrl.dll" FileName="DHCTRL~1.DLL|DH.Ctrl.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DH.Ctrl.dll" SelfReg="false"/>
+    <ROW File="DH.MsgBox.dll" Component_="DH.MsgBox.dll" FileName="DHMSGB~1.DLL|DH.MsgBox.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\DH.MsgBox.dll" SelfReg="false"/>
+    <ROW File="EntityFramework.dll" Component_="EntityFramework.dll" FileName="ENTITY~1.DLL|EntityFramework.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\EntityFramework.dll" SelfReg="false"/>
+    <ROW File="EPPlus.dll" Component_="EPPlus.dll" FileName="EPPlus.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\EPPlus.dll" SelfReg="false"/>
+    <ROW File="Excel.dll" Component_="Excel.dll" FileName="Excel.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Excel.dll" SelfReg="false"/>
+    <ROW File="FlashControlV71.dll" Component_="FlashControlV71.dll" FileName="FLASHC~1.DLL|FlashControlV71.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\FlashControlV71.dll" SelfReg="false"/>
+    <ROW File="Google.Apis.Auth.dll" Component_="Google.Apis.Auth.dll" FileName="GOOGLE~1.DLL|Google.Apis.Auth.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Google.Apis.Auth.dll" SelfReg="false"/>
+    <ROW File="Google.Apis.Core.dll" Component_="Google.Apis.Core.dll" FileName="GOOGLE~2.DLL|Google.Apis.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Google.Apis.Core.dll" SelfReg="false"/>
+    <ROW File="Google.Apis.dll" Component_="Google.Apis.dll" FileName="GOOGLE~3.DLL|Google.Apis.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Google.Apis.dll" SelfReg="false"/>
+    <ROW File="Google.Apis.Drive.v3.dll" Component_="Google.Apis.Drive.v3.dll" FileName="GOOGLE~4.DLL|Google.Apis.Drive.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Google.Apis.Drive.v3.dll" SelfReg="false"/>
+    <ROW File="ICSharpCode.SharpZipLib.dll" Component_="ICSharpCode.SharpZipLib.dll" FileName="ICSHAR~1.DLL|ICSharpCode.SharpZipLib.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\ICSharpCode.SharpZipLib.dll" SelfReg="false"/>
+    <ROW File="Interop.Office.dll" Component_="Interop.Office.dll" FileName="INTERO~1.DLL|Interop.Office.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Interop.Office.dll" SelfReg="false"/>
+    <ROW File="Interop.Word.dll" Component_="Interop.Word.dll" FileName="INTERO~2.DLL|Interop.Word.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Interop.Word.dll" SelfReg="false"/>
+    <ROW File="Janus.Data.v3.dll" Component_="Janus.Data.v3.dll" FileName="JANUSD~1.DLL|Janus.Data.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Janus.Data.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.ButtonBar.v3.dll" Component_="Janus.Windows.ButtonBar.v3.dll" FileName="JANUSW~1.DLL|Janus.Windows.ButtonBar.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Janus.Windows.ButtonBar.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.CalendarCombo.v3.dll" Component_="Janus.Windows.CalendarCombo.v3.dll" FileName="JANUSW~2.DLL|Janus.Windows.CalendarCombo.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Janus.Windows.CalendarCombo.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.Common.v3.dll" Component_="Janus.Windows.Common.v3.dll" FileName="JANUSW~3.DLL|Janus.Windows.Common.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Janus.Windows.Common.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.ExplorerBar.v3.dll" Component_="Janus.Windows.ExplorerBar.v3.dll" FileName="JANUSW~4.DLL|Janus.Windows.ExplorerBar.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Janus.Windows.ExplorerBar.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.FilterEditor.v3.dll" Component_="Janus.Windows.FilterEditor.v3.dll" FileName="JANUSW~5.DLL|Janus.Windows.FilterEditor.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Janus.Windows.FilterEditor.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.GridEX.v3.dll" Component_="Janus.Windows.GridEX.v3.dll" FileName="JANUSW~6.DLL|Janus.Windows.GridEX.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Janus.Windows.GridEX.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.Ribbon.v3.dll" Component_="Janus.Windows.Ribbon.v3.dll" FileName="JANUSW~7.DLL|Janus.Windows.Ribbon.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Janus.Windows.Ribbon.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.Schedule.v3.dll" Component_="Janus.Windows.Schedule.v3.dll" FileName="JANUSW~8.DLL|Janus.Windows.Schedule.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Janus.Windows.Schedule.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.TimeLine.v3.dll" Component_="Janus.Windows.TimeLine.v3.dll" FileName="JANUSW~9.DLL|Janus.Windows.TimeLine.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Janus.Windows.TimeLine.v3.dll" SelfReg="false"/>
+    <ROW File="Janus.Windows.UI.v3.dll" Component_="Janus.Windows.UI.v3.dll" FileName="JANUS~10.DLL|Janus.Windows.UI.v3.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Janus.Windows.UI.v3.dll" SelfReg="false"/>
+    <ROW File="LibraryApp.dll" Component_="LibraryApp.dll" FileName="LIBRAR~1.DLL|LibraryApp.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\LibraryApp.dll" SelfReg="false"/>
+    <ROW File="License.dll" Component_="License.dll" FileName="License.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\License.dll" SelfReg="false"/>
+    <ROW File="List.dll" Component_="List.dll" FileName="List.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\List.dll" SelfReg="false"/>
+    <ROW File="log4net.dll" Component_="log4net.dll" FileName="log4net.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\log4net.dll" SelfReg="false"/>
+    <ROW File="MessageBoxAdv.dll" Component_="MessageBoxAdv.dll" FileName="MESSAG~1.DLL|MessageBoxAdv.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\MessageBoxAdv.dll" SelfReg="false"/>
+    <ROW File="Mono.Security.dll" Component_="Mono.Security.dll" FileName="MONOSE~1.DLL|Mono.Security.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Mono.Security.dll" SelfReg="false"/>
+    <ROW File="Newtonsoft.Json.dll" Component_="Newtonsoft.Json.dll" FileName="NEWTON~1.DLL|Newtonsoft.Json.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Newtonsoft.Json.dll" SelfReg="false"/>
+    <ROW File="Npgsql.dll" Component_="Npgsql.dll" FileName="Npgsql.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Npgsql.dll" SelfReg="false"/>
+    <ROW File="Npgsql.EntityFramework.dll" Component_="Npgsql.EntityFramework.dll" FileName="NPGSQL~1.DLL|Npgsql.EntityFramework.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Npgsql.EntityFramework.dll" SelfReg="false"/>
+    <ROW File="Npgsql.EntityFrameworkLegacy.dll" Component_="Npgsql.EntityFrameworkLegacy.dll" FileName="NPGSQL~2.DLL|Npgsql.EntityFrameworkLegacy.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Npgsql.EntityFrameworkLegacy.dll" SelfReg="false"/>
+    <ROW File="OTH.Adapter.dll" Component_="OTH.Adapter.dll" FileName="OTHADA~1.DLL|OTH.Adapter.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.Adapter.dll" SelfReg="false"/>
+    <ROW File="OTH.AppStore.Core.dll" Component_="OTH.AppStore.Core.dll" FileName="OTHAPP~1.DLL|OTH.AppStore.Core.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.AppStore.Core.dll" SelfReg="false"/>
+    <ROW File="OTH.ChilkatRR.dll" Component_="OTH.ChilkatRR.dll" FileName="OTHCHI~1.DLL|OTH.ChilkatRR.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.ChilkatRR.dll" SelfReg="false"/>
+    <ROW File="OTH.Common.dll" Component_="OTH.Common.dll" FileName="OTHCOM~1.DLL|OTH.Common.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.Common.dll" SelfReg="false"/>
+    <ROW File="OTH.dll" Component_="OTH.dll" FileName="OTH.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.dll" SelfReg="false"/>
+    <ROW File="OTH.Entity.dll" Component_="OTH.Entity.dll" FileName="OTHENT~1.DLL|OTH.Entity.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.Entity.dll" SelfReg="false"/>
+    <ROW File="OTH.Entity.v.1.0.dll" Component_="OTH.Entity.v.1.0.dll" FileName="OTHENT~2.DLL|OTH.Entity.v.1.0.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.Entity.v.1.0.dll" SelfReg="false"/>
+    <ROW File="OTH.PAY.SHB.Apis.dll" Component_="OTH.PAY.SHB.Apis.dll" FileName="OTHPAY~1.DLL|OTH.PAY.SHB.Apis.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.PAY.SHB.Apis.dll" SelfReg="false"/>
+    <ROW File="OTH.PAY.ViettinBank.Apis.Leasedline.dll" Component_="OTH.PAY.ViettinBank.Apis.Leasedline.dll" FileName="OTHPAY~2.DLL|OTH.PAY.ViettinBank.Apis.Leasedline.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.PAY.ViettinBank.Apis.Leasedline.dll" SelfReg="false"/>
+    <ROW File="OTH.PAY.ViettinBank.Apis.Net.dll" Component_="OTH.PAY.ViettinBank.Apis.Net.dll" FileName="OTHPAY~3.DLL|OTH.PAY.ViettinBank.Apis.Net.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.PAY.ViettinBank.Apis.Net.dll" SelfReg="false"/>
+    <ROW File="OTH.PAY.ViettinBank.Crypto.dll" Component_="OTH.PAY.ViettinBank.Crypto.dll" FileName="OTHPAY~4.DLL|OTH.PAY.ViettinBank.Crypto.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.PAY.ViettinBank.Crypto.dll" SelfReg="false"/>
+    <ROW File="OTH.PAY.ViettinBank.Hos.dll" Component_="OTH.PAY.ViettinBank.Hos.dll" FileName="OTHPAY~5.DLL|OTH.PAY.ViettinBank.Hos.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.PAY.ViettinBank.Hos.dll" SelfReg="false"/>
+    <ROW File="OTH.Resources.dll" Component_="OTH.Resources.dll" FileName="OTHRES~1.DLL|OTH.Resources.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.Resources.dll" SelfReg="false"/>
+    <ROW File="OTH.Selenium.dll" Component_="OTH.Selenium.dll" FileName="OTHSEL~1.DLL|OTH.Selenium.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.Selenium.dll" SelfReg="false"/>
+    <ROW File="OTH.SQL.dll" Component_="OTH.SQL.dll" FileName="OTHSQL~1.DLL|OTH.SQL.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.SQL.dll" SelfReg="false"/>
+    <ROW File="OTH.WebServices.dll" Component_="OTH.WebServices.dll" FileName="OTHWEB~1.DLL|OTH.WebServices.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.WebServices.dll" SelfReg="false"/>
+    <ROW File="OTH.XControl.dll" Component_="OTH.XControl.dll" FileName="OTHXCO~1.DLL|OTH.XControl.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\OTH.XControl.dll" SelfReg="false"/>
+    <ROW File="phieudangky.doc" Component_="phieudangky.doc" FileName="PHIEUD~1.DOC|phieudangky.doc" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\phieudangky.doc" SelfReg="false"/>
+    <ROW File="RegisterOrdinal.exe" Component_="RegisterOrdinal.exe" FileName="REGIST~1.EXE|RegisterOrdinal.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\RegisterOrdinal.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="RegisterOrdinal.exe.config" Component_="phieudangky.doc" FileName="REGIST~1.CON|RegisterOrdinal.exe.config" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\RegisterOrdinal.exe.config" SelfReg="false"/>
+    <ROW File="ReportViewer.dll" Component_="ReportViewer.dll" FileName="REPORT~1.DLL|ReportViewer.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\ReportViewer.dll" SelfReg="false"/>
+    <ROW File="RestSharp.dll" Component_="RestSharp.dll" FileName="RESTSH~1.DLL|RestSharp.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\RestSharp.dll" SelfReg="false"/>
+    <ROW File="Roo.Exe.dll" Component_="Roo.Exe.dll" FileName="ROOEXE~1.DLL|Roo.Exe.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\Roo.Exe.dll" SelfReg="false"/>
+    <ROW File="SetupPrintDlg.dll" Component_="SetupPrintDlg.dll" FileName="SETUPP~1.DLL|SetupPrintDlg.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\SetupPrintDlg.dll" SelfReg="false"/>
+    <ROW File="ShockwaveFlashObjects.dll" Component_="ShockwaveFlashObjects.dll" FileName="SHOCKW~1.DLL|ShockwaveFlashObjects.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\ShockwaveFlashObjects.dll" SelfReg="false"/>
+    <ROW File="vnConvert.dll" Component_="vnConvert.dll" FileName="VNCONV~1.DLL|vnConvert.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\vnConvert.dll" SelfReg="false"/>
+    <ROW File="WebDriver.dll" Component_="WebDriver.dll" FileName="WEBDRI~1.DLL|WebDriver.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\WebDriver.dll" SelfReg="false"/>
+    <ROW File="WebDriver.Support.dll" Component_="WebDriver.Support.dll" FileName="WEBDRI~2.DLL|WebDriver.Support.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\WebDriver.Support.dll" SelfReg="false"/>
+    <ROW File="WindowsHookLib.dll" Component_="WindowsHookLib.dll" FileName="WINDOW~1.DLL|WindowsHookLib.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\WindowsHookLib.dll" SelfReg="false"/>
+    <ROW File="XtraRPT.dll" Component_="XtraRPT.dll" FileName="XtraRPT.dll" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\XtraRPT.dll" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="." Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="DHGPharma_Dir" Component_="DHGPharma" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="API3.SDK.dll"/>
+    <ROW Feature_="MainFeature" Component_="BouncyCastle.Crypto.dll"/>
+    <ROW Feature_="MainFeature" Component_="ChilkatDotNet4.dll"/>
+    <ROW Feature_="MainFeature" Component_="Chuoi.dll"/>
+    <ROW Feature_="MainFeature" Component_="ControlButton.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.CrystalReports.Engine.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.ClientDoc.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.CommLayer.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.CommonControls.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.Com_1_monObjectModel.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.Controllers.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.CubeDefModel.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.DataDefModel.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.DataSetConversion.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.ObjectFactory.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.Prompting.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.ReportDefModel.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportAppServer.XmlSerialize.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.ReportSource.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.Shared.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.Web.dll"/>
+    <ROW Feature_="MainFeature" Component_="CrystalDecisions.Windows.Forms.dll"/>
+    <ROW Feature_="MainFeature" Component_="Ctrl.dll"/>
+    <ROW Feature_="MainFeature" Component_="DanhMuc.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.BonusSkins.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Charts.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.CodeParser.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Data.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.DataAccess.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.DataAccess.v17.1.UI.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Diagram.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Docs.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Images.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Map.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Office.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Patch.Common.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Pdf.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Pdf.v17.1.Drawing.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.PivotGrid.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Printing.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.RichEdit.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.RichEdit.v17.1.Export.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Snap.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Snap.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Snap.v17.1.Extensions.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Sparkline.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Spreadsheet.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.TreeMap.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Utils.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Utils.v17.1.UI.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Web.ASPxThemes.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Web.Resources.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Web.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.Xpo.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraBars.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraCharts.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraCharts.v17.1.Extensions.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraCharts.v17.1.UI.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraCharts.v17.1.Wizard.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraDiagram.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraEditors.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraGauges.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraGrid.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraLayout.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraNavBar.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraPdfViewer.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraPivotGrid.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraPrinting.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraReports.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraReports.v17.1.Extensions.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraReports.v17.1.Web.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraRichEdit.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraRichEdit.v17.1.Extensions.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraScheduler.v17.1.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraScheduler.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraScheduler.v17.1.Reporting.Extensions.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraSpreadsheet.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraTreeList.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraTreeMap.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DevExpress.XtraVerticalGrid.v17.1.dll"/>
+    <ROW Feature_="MainFeature" Component_="DH.Ctrl.dll"/>
+    <ROW Feature_="MainFeature" Component_="DH.MsgBox.dll"/>
+    <ROW Feature_="MainFeature" Component_="EntityFramework.dll"/>
+    <ROW Feature_="MainFeature" Component_="EPPlus.dll"/>
+    <ROW Feature_="MainFeature" Component_="Excel.dll"/>
+    <ROW Feature_="MainFeature" Component_="FlashControlV71.dll"/>
+    <ROW Feature_="MainFeature" Component_="Google.Apis.Auth.dll"/>
+    <ROW Feature_="MainFeature" Component_="Google.Apis.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="Google.Apis.dll"/>
+    <ROW Feature_="MainFeature" Component_="Google.Apis.Drive.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="ICSharpCode.SharpZipLib.dll"/>
+    <ROW Feature_="MainFeature" Component_="Interop.Office.dll"/>
+    <ROW Feature_="MainFeature" Component_="Interop.Word.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Data.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.ButtonBar.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.CalendarCombo.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.Common.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.ExplorerBar.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.FilterEditor.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.GridEX.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.Ribbon.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.Schedule.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.TimeLine.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="Janus.Windows.UI.v3.dll"/>
+    <ROW Feature_="MainFeature" Component_="LibraryApp.dll"/>
+    <ROW Feature_="MainFeature" Component_="License.dll"/>
+    <ROW Feature_="MainFeature" Component_="List.dll"/>
+    <ROW Feature_="MainFeature" Component_="log4net.dll"/>
+    <ROW Feature_="MainFeature" Component_="MessageBoxAdv.dll"/>
+    <ROW Feature_="MainFeature" Component_="Mono.Security.dll"/>
+    <ROW Feature_="MainFeature" Component_="Newtonsoft.Json.dll"/>
+    <ROW Feature_="MainFeature" Component_="Npgsql.dll"/>
+    <ROW Feature_="MainFeature" Component_="Npgsql.EntityFramework.dll"/>
+    <ROW Feature_="MainFeature" Component_="Npgsql.EntityFrameworkLegacy.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.Adapter.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.AppStore.Core.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.ChilkatRR.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.Common.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.Entity.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.Entity.v.1.0.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.PAY.SHB.Apis.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.PAY.ViettinBank.Apis.Leasedline.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.PAY.ViettinBank.Apis.Net.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.PAY.ViettinBank.Crypto.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.PAY.ViettinBank.Hos.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.Resources.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.Selenium.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.SQL.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.WebServices.dll"/>
+    <ROW Feature_="MainFeature" Component_="OTH.XControl.dll"/>
+    <ROW Feature_="MainFeature" Component_="phieudangky.doc"/>
+    <ROW Feature_="MainFeature" Component_="RegisterOrdinal.exe"/>
+    <ROW Feature_="MainFeature" Component_="ReportViewer.dll"/>
+    <ROW Feature_="MainFeature" Component_="RestSharp.dll"/>
+    <ROW Feature_="MainFeature" Component_="Roo.Exe.dll"/>
+    <ROW Feature_="MainFeature" Component_="SetupPrintDlg.dll"/>
+    <ROW Feature_="MainFeature" Component_="ShockwaveFlashObjects.dll"/>
+    <ROW Feature_="MainFeature" Component_="vnConvert.dll"/>
+    <ROW Feature_="MainFeature" Component_="WebDriver.dll"/>
+    <ROW Feature_="MainFeature" Component_="WebDriver.Support.dll"/>
+    <ROW Feature_="MainFeature" Component_="WindowsHookLib.dll"/>
+    <ROW Feature_="MainFeature" Component_="XtraRPT.dll"/>
+    <ROW Feature_="MainFeature" Component_="DHGPharma"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="Logo.exe" SourcePath=".sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\.advbuilds\Logo.ico" Index="0"/>
+    <ROW Name="RegisterOrdinal.exe" SourcePath="..\..\.sourceBuild\RegisterOrdinal.exe--NxBbrUYs_ST6Lzmd28M.json\.advbuilds\Logo.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 600)" Description="[ProductName] cannot be installed on [WindowsTypeNT60Display]." DescriptionLocId="AI.LaunchCondition.NoNT60" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="DH.Ordinal" Directory_="DesktopFolder" Name="DH~1.ORD|DH.Ordinal" Component_="RegisterOrdinal.exe" Target="[#RegisterOrdinal.exe]" Hotkey="0" Icon_="RegisterOrdinal.exe" IconIndex="0" ShowCmd="1"/>
+    <ROW Shortcut="DH.Ordinal_1" Directory_="DHGPharma_Dir" Name="DH~1.ORD|DH.Ordinal" Component_="RegisterOrdinal.exe" Target="[#RegisterOrdinal.exe]" Hotkey="0" Icon_="RegisterOrdinal.exe" IconIndex="0" ShowCmd="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
