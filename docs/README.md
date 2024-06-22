@@ -5,7 +5,9 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 1.24.0618.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12406180-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12406180-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12406180-NasDHSolutions.json)
+## 1.24.0622.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12406220-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12406220-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12406220-NasDHSolutions.json)
+- 🐛: Fix lỗi khi quét lấy STT tự động, không lấy được ưu tiên theo lần khám trước
+## [v.1.24.0618.0]()
 - 🐛: Fix lỗi không quét bắt stt được đối với toa thuốc
 ## [v.1.24.0612.1]()
 - 🐛: Fix lỗi para tenphankhu bị thiếu giá trị khi quét và in stt tự động
