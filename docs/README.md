@@ -5,7 +5,16 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 1.24.0625.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12406250-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12406250-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12406250-NasDHSolutions.json)
+## 1.24.0626.3 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12406263-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12406263-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12406263-NasDHSolutions.json)
+- 🐛: fix lỗi không quét được CCCD
+## [v.1.24.0626.2]()
+## [v.1.24.0626.1]()
+- 🐛: fix lỗi không quét được CCCD
+## [v.1.24.0626.1]()
+- 🐛: fix lỗi không quét được CCCD
+## [v.1.24.0626.0]()
+- 🐛: fix lỗi không quét được CCCD
+## [v.1.24.0625.0]()
 - 🐛: Lỗi - TRÀ CÚ - KHÔNG XÁC ĐỊNH ĐƯỢC ƯU TIÊN LẦN KHÁM TRƯỚC VỚI THẺ LẤY THEO MÃ BHXH
 - ☑: https://github.com/dh-hos/dh.ordinal/issues/2
 ## [v.1.24.0624.0]()
