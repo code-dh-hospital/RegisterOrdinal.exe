@@ -5,7 +5,15 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 1.24.0813.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12408130-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12408130-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12408130-NasDHSolutions.json)
+## 1.24.0915.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12409151-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12409151-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12409151-NasDHSolutions.json)
+- ✨: Bổ sung bắt số thứ tự trên KIOS cho Bệnh viện Sa Đéc
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/647
+![](https://i.imgur.com/WtDih4y.png)
+## [v.1.24.0915.0]()
+- ✨: Bổ sung bắt số thứ tự trên KIOS cho Bệnh viện Sa Đéc
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/647
+![](https://i.imgur.com/WtDih4y.png)
+## [v.1.24.0813.0]()
 - 🐛: Fix Lỗi - LỖI TRA CỨU THÔNG TIN, KHÔNG THỂ CẤP STT
 - ☑: https://github.com/dh-hos/dhg.hospitalregister/issues/76
 ## [v.1.24.0709.0]()
