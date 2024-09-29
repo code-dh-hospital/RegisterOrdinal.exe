@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 1.24.0915.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12409151-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12409151-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12409151-NasDHSolutions.json)
+## 1.24.0929.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12409290-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12409290-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12409290-NasDHSolutions.json)
+- ✨: Thực hiện Yêu cầu - Tích hợp chức năng feedback của bệnh nhân vào phần hệ bắt số thứ tự tại KIOS
+![](https://i.imgur.com/Ap4FFbY.png)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/659
+## [v.1.24.0915.1]()
 - ✨: Bổ sung bắt số thứ tự trên KIOS cho Bệnh viện Sa Đéc
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/647
 ![](https://i.imgur.com/WtDih4y.png)
