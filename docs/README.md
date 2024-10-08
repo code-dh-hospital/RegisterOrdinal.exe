@@ -5,7 +5,13 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 1.24.0929.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12409290-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12409290-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12409290-NasDHSolutions.json)
+## 1.24.1008.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12410080-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12410080-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FRegisterOrdinalexe%2F12410080-NasDHSolutions.json)
+- 🐛: Fix Lỗi - QUÉT CCCD KHÔNG NHẬN PHÍM ENTER
+![](https://i.imgur.com/88kudB3.gif)
+- ☑: https://github.com/dh-hos/dh.ordinal/issues/3
+- 🐛: Khi bệnh nhân sử dụng CCCD hoặc thẻ BHYT hoặc toa thuốc, phiếu chỉ định cls để lấy số thứ tự ưu tiên lấy thông tin từ dữ liệu trước. Nếu không có thông tin thì mới kiểm tra đến cổng BHYT.
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/682
+## [v.1.24.0929.0]()
 - ✨: Thực hiện Yêu cầu - Tích hợp chức năng feedback của bệnh nhân vào phần hệ bắt số thứ tự tại KIOS
 ![](https://i.imgur.com/Ap4FFbY.png)
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/659
