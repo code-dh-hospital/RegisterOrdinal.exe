@@ -6,6 +6,12 @@
 
 #
 
+## [v.1.24.1112.1]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12411121-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12411121-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12411121-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix - Lỗi Ordinal Khi trong bảng dmphankhu cấu hình bhyt=0 thì khi quét thẻ BHYT trên Ordinal không in ra được số thứ tự bệnh nhân, thông tin tự động bị xóa mất
+- 🐛: không khóa phân khu cấu hình bhyt = 1.
+![](https://i.imgur.com/Hj8HniN.gif)
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/370
+
 ## [v.1.24.1112.0]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12411120-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12411120-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12411120-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix - Lỗi Ordinal Khi trong bảng dmphankhu cấu hình bhyt=0 thì khi quét thẻ BHYT trên Ordinal không in ra được số thứ tự bệnh nhân, thông tin tự động bị xóa mất
 ![](https://i.imgur.com/hHo7AvF.gif)
