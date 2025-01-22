@@ -6,6 +6,13 @@
 
 #
 
+## [v.1.25.0122.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12501221-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12501221-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12501221-NasDHSolutions.json)</sup></sup></sub>
+Push lại do push nhầm issuses
+- ✨: KIOS - Nâng cấp module Ordinal có tích hợp đầu đọc CCCD và QR ViettinBank
+![](https://i.imgur.com/5OPpcYL.gif)
+![](https://i.imgur.com/Kfss8kK.gif)
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/4
+
 ## [v.1.25.0122.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12501220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12501220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12501220-NasDHSolutions.json)</sup></sup></sub>
 Push lại do push nhầm issuses
 - ✨: KIOS - Nâng cấp module Ordinal có tích hợp đầu đọc CCCD và QR ViettinBank
