@@ -6,6 +6,11 @@
 
 #
 
+## [v.1.25.0205.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12502051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12502051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12502051-NasDHSolutions.json)</sup></sup></sub>
+- ✨: KIOS - Nâng cấp module Ordinal có tích hợp đầu đọc CCCD và QR ViettinBank
+- ✨: Sử dụng chức năng kiểm tra chức năng riêng để mở chức năng theo yêu cầu: `OTH.Adapter.Common.HisPrivateCode.MabvIsUsePrivateCodeBy` với key là `dhkiosqr`
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/4
+
 ## [v.1.25.0205.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12502050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12502050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12502050-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi: Ordinal quét thẻ BHYT không cho chọn phân khu
 - 🐛: Mở cho chọn phân khu thay vì tự động lấy số thứ tự
