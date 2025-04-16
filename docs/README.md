@@ -6,6 +6,11 @@
 
 #
 
+## [v.1.25.0416.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504160-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Thực hiện tạm lưu vào phòng khám khi quét KIOS, mở danh mục phòng khám cứng theo giao diện hiện tại.
+![](https://i.imgur.com/xHUC3GA.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/192
+
 ## [v.1.25.0411.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504110-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Thực hiện chuyển chức năng KIOS cập nhật theo key chức năng (BV Tim Mạch Cần Thơ -92001)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/189
