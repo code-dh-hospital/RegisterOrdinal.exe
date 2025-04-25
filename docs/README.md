@@ -6,6 +6,27 @@
 
 #
 
+## [v.1.25.0425.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504252-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504252-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504252-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Hỗ trợ Lấy số thứ tự tại Kios cho Bệnh viện đa khoa thành phố Cần Thơ (push lại lần 2)
+- ✨: Thực hiện thay đổi theo mô tả
+https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/he-thong-so-thu-tu/Kiosk-bat-thu-tu-BV-DKTP-Can-Tho.md
+![](https://i.imgur.com/2ADAzVP.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/192
+
+## [v.1.25.0425.1]()
+- ✨: Yêu cầu: Hỗ trợ Lấy số thứ tự tại Kios cho Bệnh viện đa khoa thành phố Cần Thơ (push lại lần 1)
+- ✨: Thực hiện thay đổi theo mô tả
+https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/he-thong-so-thu-tu/Kiosk-bat-thu-tu-BV-DKTP-Can-Tho.md
+![](https://i.imgur.com/2ADAzVP.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/192
+
+## [v.1.25.0425.0]()
+- ✨: Yêu cầu: Hỗ trợ Lấy số thứ tự tại Kios cho Bệnh viện đa khoa thành phố Cần Thơ
+- ✨: Thực hiện thay đổi theo mô tả
+https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/he-thong-so-thu-tu/Kiosk-bat-thu-tu-BV-DKTP-Can-Tho.md
+![](https://i.imgur.com/2ADAzVP.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/192
+
 ## [v.1.25.0418.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504180-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Hỗ trợ Lấy số thứ tự tại Kios cho Bệnh viện đa khoa thành phố Cần Thơ	
 - 🐛: Load danh sách phòng theo 2 nút khám dịch vụ và khám thu phí
