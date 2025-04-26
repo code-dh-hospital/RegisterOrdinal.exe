@@ -6,6 +6,11 @@
 
 #
 
+## [v.1.25.0426.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504262-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504262-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504262-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Hỗ trợ Lấy số thứ tự tại Kios cho Bệnh viện đa khoa thành phố Cần Thơ
+- 🐛: Fix lỗi sau khi đăng ký không cập nhật lại dmphong.succhua
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/192
+
 ## [v.1.25.0426.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504261-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504261-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504261-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Hỗ trợ Lấy số thứ tự tại Kios cho Bệnh viện đa khoa thành phố Cần Thơ
 - 🐛: Bổ sung para tenphong
