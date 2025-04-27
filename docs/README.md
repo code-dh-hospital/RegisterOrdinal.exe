@@ -6,6 +6,18 @@
 
 #
 
+## [v.1.25.0427.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504270-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Hỗ trợ Lấy số thứ tự tại Kios cho Bệnh viện đa khoa thành phố Cần Thơ
+- 🐛: Lỗi - Khi đăng ký khám phòng dịch vụ đối tượng không BHYT và cả đối tượng có BHYT, đã vào đúng phòng hiển thị công khám đúng nhưng chưa có nút check Dịch vụ.
+![](https://i.imgur.com/kS8IWJ2.gif)
+- 🐛: Lỗi - Riêng đối tượng khám dịch vụ BHYT thì chưa tính được chênh lệch.
+![](https://i.imgur.com/PSdBttG.gif)
+- 🐛: Đối với phòng khám dịch vụ yêu cầu lấy tất cả các phòng được ghi nhận cột dmphong.dichvu=1 và khoakb=1.
+- 🐛: Đối với phòng khám thường, yêu cầu lấy tất cả các phòng được ghi nhận cột khoakb=1.
+- 🐛: Lỗi khi thực hiện thao tác chọn phòng, ví dụ bệnh nhân nhấn vào một phòng khám (PK 1) sau đó bệnh nhân nhấn vào phòng khám khác (PK 2) thì khi in vẫn lấy đúng phòng khám cuối cùng người bệnh chọn. Nhưng ở danh sách bệnh nhân đăng ký ghi nhận 2 dòng dữ liệu của bệnh nhân đăng ký 2 phòng khác nhau.
+![](https://i.imgur.com/bgFdbRE.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/192
+
 ## [v.1.25.0426.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504263-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504263-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504263-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Hỗ trợ Lấy số thứ tự tại Kios cho Bệnh viện đa khoa thành phố Cần Thơ
 - 🐛: Fix lỗi load phòng -> Phần mềm đang load luôn các phòng có `dmphong.xoa = 1`
