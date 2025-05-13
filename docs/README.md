@@ -6,6 +6,12 @@
 
 #
 
+## [v.1.25.0513.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505130-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Tùy chỉnh giao diện KIOS Ordinal, Monitor, Speaker(Gọi bệnh) TTYT huyện Châu Thành - Đồng Tháp
+- ✨: Hỗ trợ căn cứ vào Danh mục quyền lợi các mã chữ cái có check chọn ưu tiên để xác định bệnh nhân được chọn phân ku ưu tiên.
+![](https://i.imgur.com/QF049Uk.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/197
+
 ## [v.1.25.0427.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504272-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504272-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12504272-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Test - fix lỗi giao diện v2
 
