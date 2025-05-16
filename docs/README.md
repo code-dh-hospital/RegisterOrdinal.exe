@@ -6,6 +6,13 @@
 
 #
 
+## [v.1.25.0516.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505160-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Tùy chỉnh giao diện KIOS Ordinal, Monitor, Speaker(Gọi bệnh) TTYT huyện Châu Thành - Đồng Tháp
+- 🐛: Fix - quét bằng CCCD hoặc toa thuốc thì báo lỗi !
+![](https://i.postimg.cc/sDNx0GBg/Register-Ordinal-Ta-PZPRJ7zo.png)
+![](https://i.postimg.cc/Kvz4ND8W/Register-Ordinal-T8-P1ps-Enl-E.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/197
+
 ## [v.1.25.0515.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505150-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Hỗ trợ Lấy số thứ tự tại Kios cho Bệnh viện đa khoa thành phố Cần Thơ
 - 🐛: Giá tiền đang dư một từ VND
