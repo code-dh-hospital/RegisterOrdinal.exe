@@ -6,6 +6,16 @@
 
 #
 
+## [v.1.25.0526.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505260-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Đơn vị muốn lấy thông tin thông tuyến của bệnh nhân từ cổng BHXH về để hiển thị lên Kiosk
+Hiện tại khi quét bằng QR của thẻ BHYT thì phần mềm đang lấy thông tin trong dữ liệu để hiển thị lên, trường hợp bệnh nhân có thông tin lưu trong dmthebhyt đã hết hạn sử dụng, nhưng thực tế hiện tại thẻ vẫn còn hạn thì không đúng.
+![](https://i.ibb.co/DDBsbVRC/Wl-Uxy-Re-TM0.png)
+- 🐛: Bệnh nhân trong ngày khi quét thẻ lại thì không trả ra phiếu thông tin cũ mà lại có thể đăng ký phòng khám mới.
+![](https://i.ibb.co/yF9F3QWx/Pg-Manager-ECKy-Lecy4f.gif)
+- 🐛: Tên phòng khám trong từng ô của danh sách phòng bị không hiển thị hết trong trường hợp tên dài, chỉ khi bấm vào để hiển thị tên phòng - giá tiền công khám mới thấy đầy đủ tên phòng.
+![](https://i.ibb.co/84zvYHKH/3i-Ec4si97p.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/192
+
 ## [v.1.25.0520.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505200-NasDHSolutions.json)</sup></sup></sub>
 push lại lần 2
 - ✨: Yêu cầu: Tùy chỉnh giao diện KIOS Ordinal, Monitor, Speaker(Gọi bệnh) TTYT huyện Châu Thành - Đồng Tháp
