@@ -6,6 +6,12 @@
 
 #
 
+## [v.1.25.0527.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505270-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Khi quét thẻ BHYT, có một số thẻ không lấy được thông tin địa chỉ.
+- 🐛: Khi in số thứ tự thì có lỗi sau
+![](https://i.postimg.cc/G3YCrQ0q/9b1-PXt-ULq-I.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/192
+
 ## [v.1.25.0526.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505260-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Đơn vị muốn lấy thông tin thông tuyến của bệnh nhân từ cổng BHXH về để hiển thị lên Kiosk
 Hiện tại khi quét bằng QR của thẻ BHYT thì phần mềm đang lấy thông tin trong dữ liệu để hiển thị lên, trường hợp bệnh nhân có thông tin lưu trong dmthebhyt đã hết hạn sử dụng, nhưng thực tế hiện tại thẻ vẫn còn hạn thì không đúng.
