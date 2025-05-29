@@ -6,6 +6,20 @@
 
 #
 
+## [v.1.25.0529.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505291-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Khi bệnh nhân có thẻ BHYT chọn Loại 'Khám Dịch vụ' Ghi nhận lại đúng giá trị các cột trong bảng chidinhcls giống như Tiếp nhận tại Register (Hiện tại chưa ghi nhận đúng cột: mathe,tile, giabhdm)
+- 🐛: Yêu cầu Cột số tiền cần thanh toán bỏ dấu trừ '-' trước số tiền thay bằng dấu hai chấm ':' (Hình kèm theo bên dưới)
+![](https://i.vgy.me/MTDbu4.png)
+- 🐛: Form Thông tin từ cổng giám định BHYT yêu cầu bổ sung các trường thông tin đúng như trên cổng trả về
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/192
+
+## [v.1.25.0529.0]()
+- 🐛: Khi bệnh nhân có thẻ BHYT chọn Loại "Khám Dịch vụ" Ghi nhận lại đúng giá trị các cột trong bảng chidinhcls giống như Tiếp nhận tại Register (Hiện tại chưa ghi nhận đúng cột: mathe,tile, giabhdm)
+- 🐛: Yêu cầu Cột số tiền cần thanh toán bỏ dấu trừ "-" trước số tiền thay bằng dấu hai chấm ":" (Hình kèm theo bên dưới)
+![](https://i.vgy.me/MTDbu4.png)
+- 🐛: Form Thông tin từ cổng giám định BHYT yêu cầu bổ sung các trường thông tin đúng như trên cổng trả về
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/192
+
 ## [v.1.25.0527.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505270-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Khi quét thẻ BHYT, có một số thẻ không lấy được thông tin địa chỉ.
 - 🐛: Khi in số thứ tự thì có lỗi sau
