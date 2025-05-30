@@ -6,6 +6,12 @@
 
 #
 
+## [v.1.25.0530.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505300-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Nếu là bệnh nhân BHYT Khi kiểm tra thông tuyến nếu sai thông tin nào từ form Quét thẻ so với Thông tin cổng trả về đề nghị cập nhật thông tin theo cổng trả về.
+- 🐛: Sau khi bệnh nhân lấy số thứ tự xong đề nghị set rỗng các trường thông tin
+![](https://upanh.tv/image/qDtPmXbK6b.Iu9Xs)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/192
+
 ## [v.1.25.0529.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505292-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505292-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505292-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Khi bệnh nhân có thẻ BHYT chọn Loại 'Khám Dịch vụ' Ghi nhận lại đúng giá trị các cột trong bảng chidinhcls giống như Tiếp nhận tại Register (Hiện tại chưa ghi nhận đúng cột: mathe,tile, giabhdm)
 - 🐛: Yêu cầu Cột số tiền cần thanh toán bỏ dấu trừ '-' trước số tiền thay bằng dấu hai chấm ':' (Hình kèm theo bên dưới)
