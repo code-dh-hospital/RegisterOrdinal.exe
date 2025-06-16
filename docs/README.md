@@ -6,6 +6,9 @@
 
 #
 
+## [v.1.25.0616.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506160-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Cập nhật chức năng nhận diện gương mặt trên kios
+
 ## [v.1.25.0530.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505301-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505301-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12505301-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:Đối với bệnh nhân Quét bằng CCCD hoặc Thẻ BHYT mà trước đó chưa có thông tin trong dữ liệu thì chưa thêm thông tin thẻ BHYT vào bảng dmthebhyt.
 ![](https://i.vgy.me/gNkOl1.png)
