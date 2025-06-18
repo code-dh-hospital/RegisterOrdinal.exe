@@ -6,6 +6,21 @@
 
 #
 
+## [v.1.25.0618.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506185-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506185-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506185-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu: Ordinal hỗ trợ chỉnh lại giao diện và một số thông tin Bệnh viện Phụ Sản - YEUCAU - dh-issue- #305
+- ✨:  ***Hỗ trợ chỉnh giao diện cơ bản đối với các thông tin trên Form.*** ![](https://live.staticflickr.com/65535/54597940651_6e6ae3fa01_b.jpg)![](https://live.staticflickr.com/65535/54598252025_0333fd77e4_b.jpg) ![](https://live.staticflickr.com/65535/54597992321_6794d3141f_b.jpg)
+- ✨: Các bước thực hiện: Khi mở chương trình sẽ tự động tạo tệp `UIConfig.xml` trong thư mục cài đặt, tiến hành điều chỉnh các thông tin trong file này, lần mở kế tiếp sẽ áp dụng theo các tham số đã cấu hình. Lưu ý: Muốn lấy lại tất cả thông tin mặc định, xóa  tệp này, mở chương trình lại.
+- Các thông số có thể thay đổi: 
+```
+      <Text></Text> => Thông tin chuỗi 
+      <BackColor>255,255,105,180</BackColor> => Màu nền <BackColor>Alpha,Red,Green,Blue</BackColor>, ví dụ: <BackColor>255,255,182,193</BackColor>
+      <ForeColor>255,0,0,0</ForeColor> => Màu chữ hoặc màu nội dung hiển thị
+      <Font>Microsoft Sans Serif,8.25,0</Font> => <Font>Tên font, kích thước, kiểu (0 (thường), 1 (nghiêng), 2 (đậm), 3 (đậm + nghiêng)</Font>, ví dụ: 
+      <Size>1920,1080</Size> => Kích thước: <Size>Chiều rộng, Chiều cao</Size>
+      <Location>0,0</Location> => Vị trí (tọa độ): <Location>X ,Y </Location>, lưu ý chỉ thay đổi cơ bản
+```
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/305
+
 ## [v.1.25.0618.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506184-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506184-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506184-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix lỗi khi đăng ký đối với bệnh nhân không có thẻ BHYT
 - ✨: Thêm bộ đếm thời gian 5 phút khi mở form QR
