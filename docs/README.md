@@ -6,6 +6,12 @@
 
 #
 
+## [v.1.25.0619.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506190-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung thêm file âm thanh khi xác minh gương mặt và khi thanh toán thành công
+- 🐛: Fix lỗi giao diện load bị mất thiết kế ban đầu của button
+- 🐛: Fix lỗi khi xác minh gương mặt không hợp lệ, không đống form thông báo mà tiếp tục quét thì bị đơ máy
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/192
+
 ## [v.1.25.0618.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506185-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506185-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506185-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu: Ordinal hỗ trợ chỉnh lại giao diện và một số thông tin Bệnh viện Phụ Sản - YEUCAU - dh-issue- #305
 - ✨:  ***Hỗ trợ chỉnh giao diện cơ bản đối với các thông tin trên Form.*** ![](https://live.staticflickr.com/65535/54597940651_6e6ae3fa01_b.jpg)![](https://live.staticflickr.com/65535/54598252025_0333fd77e4_b.jpg) ![](https://live.staticflickr.com/65535/54597992321_6794d3141f_b.jpg)
