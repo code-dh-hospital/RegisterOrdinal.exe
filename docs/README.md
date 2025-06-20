@@ -6,6 +6,12 @@
 
 #
 
+## [v.1.25.0620.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506201-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: fix lỗi form thanh toán QR bị mất thông tin bệnh nhân
+![](https://i.vgy.me/5FJL5G.png)
+- 🐛: fix lỗi - Lần đầu quét mã QR trên CCCD thì hiển thị mã QR thanh toán được. Cũng thẻ CCCD này quét mã QR trên CCCD lần 2 in ra Phiếu số thứ tự có mã QR quét không hợp lệ
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/192
+
 ## [v.1.25.0620.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12506200-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Ordinal: Quét CCCD gắn chip tại đầu đọc chip chưa load thông tin kiểm tra thông tuyến #361
 ![](https://i.vgy.me/ooe7JN.png)
