@@ -6,6 +6,13 @@
 
 #
 
+## [v.1.25.0709.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12507090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12507090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12507090-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Ghi nhận sai cột `tienthu` bảng `current.psdangky`
+- 🐛: Chưa ghi nhận được tienthu_ktc và ptthu
+- ✨: Lưu thêm cột tuyenbv
+![](https://i.vgy.me/Lw6nn2.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/405
+
 ## [v.1.25.0708.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12507081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12507081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12507081-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: fix - Các lỗi phát sinh khi bấm nút Lưu chỉ định cận lâm sàng và Lưu toa thuốc tại Prescription khi nhận bệnh bằng cách quét CCCD tại ordinal
 - ✨: Bổ sung lưu thêm các cột `luongtt, tienthu, manoicap, tienthu_kyc, ptthu` vào `current.psdangky`
