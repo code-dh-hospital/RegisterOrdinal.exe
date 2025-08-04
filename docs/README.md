@@ -6,6 +6,19 @@
 
 #
 
+## [v.1.25.0804.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12508040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12508040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12508040-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - KIOS Bệnh viện Đa Khoa Thành phố Cần Thơ
+- ✨: Khi đăng ký nhận bệnh tại KIOS (Quét CCCD, quét thẻ BHYT). Khi load được thẻ BHYT nếu là cùng tuyến và bệnh nhân lần đầu tiên đến khám (chưa có thông tin trong dữ liệu) -> Thông báo bệnh nhân Vui lòng ra quầy tiếp nhận để đăng ký
+![](https://i.vgy.me/cU4QBg.png)
+- ✨: Khi đăng ký nhận bệnh tại KIOS (Quét CCCD, quét thẻ BHYT). Khi load được thẻ BHYT nếu là trái tuyến (Đối tượng Thu phí). Thì không hiển thị thông tin thẻ BHYT, hạn thẻ, nơi đăng ký trên phần mềm khám chữa bệnh. (Hiển thị như đối tượng thu phí)
+![](https://i.vgy.me/gLzSwP.png)
+- ✨: Khi đăng ký nhận bệnh tại KIOS (Quét CCCD, quét thẻ BHYT), cập nhật mặc định sẵn các trường:
+		- QG: Việt Nam
+		- Dân tộc: 01 - Kinh
+		- Tôn giáo: 01 - Không có
+		- Nghề nghiệp: 99 - Loại khác
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/386
+
 ## [v.1.25.0709.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12507090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12507090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12507090-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Ghi nhận sai cột `tienthu` bảng `current.psdangky`
 - 🐛: Chưa ghi nhận được tienthu_ktc và ptthu
