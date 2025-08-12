@@ -6,6 +6,11 @@
 
 #
 
+## [v.1.25.0812.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12508120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12508120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12508120-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - KIOS Bệnh viện Đa Khoa Thành phố Cần Thơ #403
+![](https://i.vgy.me/odeEJN.gif);
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/403
+
 ## [v.1.25.0805.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12508050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12508050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12508050-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - KIOS Bệnh viện Đa Khoa Thành phố Cần Thơ
 - ✨: Trường hợp nếu là thẻ trái tuyến (Đối tượng thu phí) thì khi lần đầu đến khám vẫn cho đăng ký nhận bệnh tại KIOS bình thường (Không thông báo ra quầy nhận bệnh)
