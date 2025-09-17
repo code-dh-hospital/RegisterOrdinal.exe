@@ -6,6 +6,10 @@
 
 #
 
+## [v.1.25.0917.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12509173-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12509173-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12509173-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Test
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/523
+
 ## [v.1.25.0917.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12509172-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12509172-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12509172-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Ordinal Ghi nhận sai: cột mã số CCCD lại gán vào cột mã thẻ BHYT khi quét bằng mã QR CCCD
 - ✨: Khi Quét CCCD nếu có thông tuyến sẽ ưu tiên lấy thông tin bệnh nhân tự cổng BHYT, Nếu Quét CCCD không kiểm tra thông tuyến được thì dùng mã số CCCD lấy thông tin bệnh nhân từ dữ liệu, Nếu dùng số CCCD mà không lấy được thông tin từ dữ liệu được thì mới set rỗng cột Mã thẻ BHYT
