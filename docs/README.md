@@ -6,6 +6,19 @@
 
 #
 
+## [v.1.25.0928.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12509280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12509280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12509280-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix - Quét CCCD ghi nhận sai cột bhxh bảng dmbenhnhan.
+- ✨: Quét CCCD ghi nhận thêm cột quetcccd.psdangky=1
+- ✨: Thứ tự ưu tiên ghi nhận thông tin vào bảng psdangky như sau để hạn chế sai địa chỉ khi gởi cổng giám định BHYT.
+Trường hợp kiểm tra được thông tuyến 
+-	Khi quét CCCD mà trong bảng dmbenhnhan CÓ tồn tại số CCCD, thông tin thẻ BHYT đúng theo thông tuyến (Ngoại trừ địa chỉ) thì ưu tiên lấy thông tin dữ liệu Bệnh viện và Xét tiếp nếu maxa.dmbenhnhan != id.dmxa4750 thì set maxa.dmbenhnhan=rỗng (Các trường hợp này Presscription không cho khám người dùng sẽ tự điều chỉnh địa chỉ)
+-	Khi quét CCCD mà trong bảng dmbenhnhan KHÔNG tồn tại số CCCD thì sẽ dò tiếp mã thẻ BHYT từ bản dmthebhyt  nếu CÓ thì ưu tiên lấy thông tin dữ liệu Bệnh viện. Xét tiếp nếu maxa.dmbenhnhan != id.dmxa4750 thì set maxa.dmbenhnhan=rỗng
+ 	Trường hợp không kiểm tra được thông tuyến 
+-	Khi quét CCCD , Quét Thẻ BHYT mà trong bảng dmbenhnhan CÓ tồn tại số CCCD và bảng dmthebhyt có tồn tại mã thẻ BHYT thì ưu tiên lấy thông tin dữ liệu Bệnh viện. Xét tiếp nếu maxa.dmbenhnhan != id.dmxa4750 thì set maxa.dmbenhnhan=rỗng (Các trường hợp này Presscription không cho khám người dùng sẽ tự điều chỉnh địa chỉ)
+-	Các trường hợp khác chuyển về đối tượng thu phí và lấy thông tin từ thẻ được quét
+![](![](https://i.vgy.me/YpKnHW.png))
+- ☑: https://i.dh-his.com/hdhiswork/TRIENKHAI/issues/37
+
 ## [v.1.25.0926.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12509260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12509260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12509260-NasDHSolutions.json)</sup></sup></sub>
 - ✨: danh sách phòng sắp xếp theo sophong
 - ✨: chỉnh sửa lại tiền công khám đối với đối tượng trẻ em
