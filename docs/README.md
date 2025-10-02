@@ -6,6 +6,13 @@
 
 #
 
+## [v.1.25.1002.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510020-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Cập nhật KIOS có hỗ trợ ánh xạ địa chỉ 3 cấp thành 2 cấp để dữ liệu XML được chính xác (Lưu maxa trong current.dmbenhnhan là idxa theo 2 cấp).
+- ✨: Thêm option trên KIOS để khách hàng lựa chọn áp dụng: chọn lấy địa chỉ theo thông tin thông tuyến hoặc theo địa chỉ 2 cấp mới
+![](https://i.vgy.me/jAfT68.png)
+![](https://i.vgy.me/bkKONf.png)
+- ☑: https://i.dh-his.com/hdhiswork/TRIENKHAI/issues/37
+
 ## [v.1.25.0930.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12509303-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12509303-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12509303-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix - phát sinh lỗi khi ấn chọn lấy số thứ tự.
 - ☑: https://i.dh-his.com/hdhiswork/TRIENKHAI/issues/37
