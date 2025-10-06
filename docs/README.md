@@ -6,6 +6,12 @@
 
 #
 
+## [v.1.25.1006.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510064-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510064-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510064-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Ordinal: KIOS ĐKTP Cần Thơ quét toa thuốc #547
+- 🐛: Cập nhật lại thông báo đối với trường hợp quét toa thuốc - thẻ bhyt hết hạn
+![](https://i.vgy.me/FeloPa.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/547
+
 ## [v.1.25.1006.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510063-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510063-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510063-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix - Lấy số tháng tổi của đối tượng trẻ em giống với register
 ![](https://i.vgy.me/kxGZeE.png)
