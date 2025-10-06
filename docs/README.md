@@ -6,6 +6,11 @@
 
 #
 
+## [v.1.25.1006.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510061-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Trường hợp thẻ BHYT hết hạn -> Chuyển thành đối tượng thu phí
+- ✨: Trường hợp ngày bắt đầu của thẻ BHYT lớn hơn ngày hiện tại -> chuyển thành đối tượng thu phí
+- ☑: https://i.dh-his.com/hdhiswork/TRIENKHAI/issues/37
+
 ## [v.1.25.1006.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510060-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Ordinal: KIOS ĐKTP Cần Thơ quét toa thuốc #547
 - 🐛: Hiện tại khi đăng ký nhận bệnh bằng KIOS thông qua quét mã vạch trên toa thuốc. Một số trường hợp thông tin thẻ BHYT của người bệnh đã hết hạn, KIOS có cảnh báo nhưng vẫn có thể chọn vào phòng khám được -> Hồ sơ bị xuất toán!
