@@ -6,6 +6,15 @@
 
 #
 
+## [v.1.25.1007.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510070-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Ordinal: Kiểm tra thông tuyến khi quét KIOS bằng toa thuốc
+![](https://i.vgy.me/r7OJSo.png)
+- 🐛: Lỗi - Ordinal: KIOS BV ĐKTP Cần Thơ quét thẻ BHYT load sai mã bệnh viện đăng ký
+![](https://i.vgy.me/42mLvY.png)
+- ✨: Tự động lấy hạn dùng củ của thẻ nếu hạn dùng vẫn còn giá trị sử dụng 
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/500
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/552
+
 ## [v.1.25.1006.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510064-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510064-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510064-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Ordinal: KIOS ĐKTP Cần Thơ quét toa thuốc #547
 - 🐛: Cập nhật lại thông báo đối với trường hợp quét toa thuốc - thẻ bhyt hết hạn
