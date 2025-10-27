@@ -6,6 +6,14 @@
 
 #
 
+## [v.1.25.1027.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510270-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Ordinal hoàn thiện chức năng Kiosk thông minh theo yêu cầu TTYT Phước Long (Cà Mau)
+- 🐛: Fix lỗi khi không kiểm tra thông tuyến thì không lấy được thông tin thẻ từ chuỗi quét
+![](https://i.vgy.me/gXjBw6.gif)
+- ✨: Khi bấm vào chọn Phòng khám hiển thị số thứ tự hiện tại đã cấp và số thứ tự đã phục vụ (stt đã khám) tại phòng khám đó
+![](https://i.vgy.me/0Mg1qp.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/534
+
 ## [v.1.25.1022.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510220-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi ghi nhận sai mã bệnh nhân
 ![](https://i.vgy.me/lTykUk.png)
