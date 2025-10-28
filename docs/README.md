@@ -6,6 +6,118 @@
 
 #
 
+## [v.1.25.1028.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510286-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510286-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510286-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Ordinal hoàn thiện chức năng Kiosk thông minh theo yêu cầu TTYT Phước Long (Cà Mau) 
+- ✨: Khi bấm vào chọn Phòng khám hiển thị số thứ tự hiện tại đã cấp và số thứ tự đã phục vụ (stt đã khám) tại phòng khám đó
+![](https://files.catbox.moe/k68zhr.png)
+- ✨: Cho phép cấu hình số lượng đăng ký khám theo phòng.
+![](https://files.catbox.moe/tqggqm.png)
+- ✨: Cấu hình theo độ tuổi đăng ký vào phòng khám.
+![](https://files.catbox.moe/x5ucmr.png)
+- ✨: Bổ sung nút Tra cứu giá viện phí.
+![](https://files.catbox.moe/80fqfg.png)
+- ✨: Bổ sung nút Tra cứu thông tin bệnh nhân
+![](https://files.catbox.moe/u7e5j0.png)
+- ✨: Bổ sung nút khảo sát sự hài lòng của khách hàng (Feedbacks)
+![](https://files.catbox.moe/nmtsim.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/534
+
+## [v.1.25.1028.5]()
+- ✨: Yêu cầu - Ordinal hoàn thiện chức năng Kiosk thông minh theo yêu cầu TTYT Phước Long (Cà Mau) 
+- ✨: Khi bấm vào chọn Phòng khám hiển thị số thứ tự hiện tại đã cấp và số thứ tự đã phục vụ (stt đã khám) tại phòng khám đó
+![](https://files.catbox.moe/k68zhr.png)
+- ✨: Cho phép cấu hình số lượng đăng ký khám theo phòng.
+![](https://files.catbox.moe/tqggqm.png)
+- ✨: Cấu hình theo độ tuổi đăng ký vào phòng khám.
+![](https://files.catbox.moe/x5ucmr.png)
+- ✨: Bổ sung nút Tra cứu giá viện phí.
+![](https://files.catbox.moe/80fqfg.png)
+- ✨: Bổ sung nút Tra cứu thông tin bệnh nhân
+![](https://files.catbox.moe/u7e5j0.png)
+- ✨: Bổ sung nút khảo sát sự hài lòng của khách hàng (Feedbacks)
+![](https://files.catbox.moe/nmtsim.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/534
+
+## [v.1.25.1028.4]()
+- ✨: Yêu cầu - Ordinal hoàn thiện chức năng Kiosk thông minh theo yêu cầu TTYT Phước Long (Cà Mau) 
+- ✨: Khi bấm vào chọn Phòng khám hiển thị số thứ tự hiện tại đã cấp và số thứ tự đã phục vụ (stt đã khám) tại phòng khám đó
+![](https://files.catbox.moe/k68zhr.png)
+- ✨: Cho phép cấu hình số lượng đăng ký khám theo phòng.
+![](https://files.catbox.moe/tqggqm.png)
+- ✨: Cấu hình theo độ tuổi đăng ký vào phòng khám.
+![](https://files.catbox.moe/x5ucmr.png)
+- ✨: Bổ sung nút Tra cứu giá viện phí.
+![](https://files.catbox.moe/80fqfg.png)
+- ✨: Bổ sung nút Tra cứu thông tin bệnh nhân
+![](https://files.catbox.moe/u7e5j0.png)
+- ✨: Bổ sung nút khảo sát sự hài lòng của khách hàng (Feedbacks)
+![](https://files.catbox.moe/nmtsim.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/534
+
+## [v.1.25.1028.3]()
+- ✨: Yêu cầu - Ordinal hoàn thiện chức năng Kiosk thông minh theo yêu cầu TTYT Phước Long (Cà Mau) 
+- ✨: Khi bấm vào chọn Phòng khám hiển thị số thứ tự hiện tại đã cấp và số thứ tự đã phục vụ (stt đã khám) tại phòng khám đó
+![](https://files.catbox.moe/k68zhr.png)
+- ✨: Cho phép cấu hình số lượng đăng ký khám theo phòng.
+![](https://files.catbox.moe/tqggqm.png)
+- ✨: Cấu hình theo độ tuổi đăng ký vào phòng khám.
+![](https://files.catbox.moe/x5ucmr.png)
+- ✨: Bổ sung nút Tra cứu giá viện phí.
+![](https://files.catbox.moe/80fqfg.png)
+- ✨: Bổ sung nút Tra cứu thông tin bệnh nhân
+![](https://files.catbox.moe/u7e5j0.png)
+- ✨: Bổ sung nút khảo sát sự hài lòng của khách hàng (Feedbacks)
+![](https://files.catbox.moe/nmtsim.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/534
+
+## [v.1.25.1028.2]()
+- ✨: Yêu cầu - Ordinal hoàn thiện chức năng Kiosk thông minh theo yêu cầu TTYT Phước Long (Cà Mau) 
+- ✨: Khi bấm vào chọn Phòng khám hiển thị số thứ tự hiện tại đã cấp và số thứ tự đã phục vụ (stt đã khám) tại phòng khám đó
+![](https://files.catbox.moe/k68zhr.png)
+- ✨: Cho phép cấu hình số lượng đăng ký khám theo phòng.
+![](https://files.catbox.moe/tqggqm.png)
+- ✨: Cấu hình theo độ tuổi đăng ký vào phòng khám.
+![](https://files.catbox.moe/x5ucmr.png)
+- ✨: Bổ sung nút Tra cứu giá viện phí.
+![](https://files.catbox.moe/80fqfg.png)
+- ✨: Bổ sung nút Tra cứu thông tin bệnh nhân
+![](https://files.catbox.moe/u7e5j0.png)
+- ✨: Bổ sung nút khảo sát sự hài lòng của khách hàng (Feedbacks)
+![](https://files.catbox.moe/nmtsim.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/534
+
+## [v.1.25.1028.1]()
+- ✨: Yêu cầu - Ordinal hoàn thiện chức năng Kiosk thông minh theo yêu cầu TTYT Phước Long (Cà Mau) 
+- ✨: Khi bấm vào chọn Phòng khám hiển thị số thứ tự hiện tại đã cấp và số thứ tự đã phục vụ (stt đã khám) tại phòng khám đó
+![](https://files.catbox.moe/k68zhr.png)
+- ✨: Cho phép cấu hình số lượng đăng ký khám theo phòng.
+![](https://files.catbox.moe/tqggqm.png)
+- ✨: Cấu hình theo độ tuổi đăng ký vào phòng khám.
+![](https://files.catbox.moe/x5ucmr.png)
+- ✨: Bổ sung nút Tra cứu giá viện phí.
+![](https://files.catbox.moe/80fqfg.png)
+- ✨: Bổ sung nút Tra cứu thông tin bệnh nhân
+![](https://files.catbox.moe/u7e5j0.png)
+- ✨: Bổ sung nút khảo sát sự hài lòng của khách hàng (Feedbacks)
+![](https://files.catbox.moe/nmtsim.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/534
+
+## [v.1.25.1028.0]()
+- ✨: Yêu cầu - Ordinal hoàn thiện chức năng Kiosk thông minh theo yêu cầu TTYT Phước Long (Cà Mau) 
+- ✨: Khi bấm vào chọn Phòng khám hiển thị số thứ tự hiện tại đã cấp và số thứ tự đã phục vụ (stt đã khám) tại phòng khám đó
+![](https://files.catbox.moe/k68zhr.png)
+- ✨: Cho phép cấu hình số lượng đăng ký khám theo phòng.
+![](https://files.catbox.moe/tqggqm.png)
+- ✨: Cấu hình theo độ tuổi đăng ký vào phòng khám.
+![](https://files.catbox.moe/x5ucmr.png)
+- ✨: Bổ sung nút Tra cứu giá viện phí.
+![](https://files.catbox.moe/80fqfg.png)
+- ✨: Bổ sung nút Tra cứu thông tin bệnh nhân
+![](https://files.catbox.moe/u7e5j0.png)
+- ✨: Bổ sung nút khảo sát sự hài lòng của khách hàng (Feedbacks)
+![](https://files.catbox.moe/nmtsim.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/534
+
 ## [v.1.25.1027.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510270-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Ordinal hoàn thiện chức năng Kiosk thông minh theo yêu cầu TTYT Phước Long (Cà Mau)
 - 🐛: Fix lỗi khi không kiểm tra thông tuyến thì không lấy được thông tin thẻ từ chuỗi quét
