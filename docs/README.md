@@ -6,6 +6,22 @@
 
 #
 
+## [v.1.25.1029.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510291-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Ordinal hoàn thiện chức năng Kiosk thông minh theo yêu cầu TTYT Phước Long (Cà Mau)
+- ✨: Bổ sung ô hiển thị địa chỉ 2 cấp
+![](https://i.vgy.me/UhgZQu.png)
+- 🐛: Fix lỗi cấu hình số lượt đăng ký tối đa
+- 🐛: thay đổi giao diện form check viện phí
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/534
+
+## [v.1.25.1029.0]()
+- ✨: Yêu cầu - Ordinal hoàn thiện chức năng Kiosk thông minh theo yêu cầu TTYT Phước Long (Cà Mau) \
+- ✨: Bổ sung ô hiển thị địa chỉ 2 cấp
+![](https://i.vgy.me/UhgZQu.png)
+- 🐛: Fix lỗi cấu hình số lượt đăng ký tối đa
+- 🐛: thay đổi giao diện form check viện phí
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/534
+
 ## [v.1.25.1028.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510286-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510286-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510286-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Ordinal hoàn thiện chức năng Kiosk thông minh theo yêu cầu TTYT Phước Long (Cà Mau) 
 - ✨: Khi bấm vào chọn Phòng khám hiển thị số thứ tự hiện tại đã cấp và số thứ tự đã phục vụ (stt đã khám) tại phòng khám đó
