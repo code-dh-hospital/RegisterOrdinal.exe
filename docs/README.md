@@ -6,6 +6,13 @@
 
 #
 
+## [v.1.25.1104.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511040-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix lỗi chưa lấy được thông tin mã nghề và mã dân tộc
+![](https://i.vgy.me/Ucm9Iz.png)
+- 🐛: Fix lỗi - Khi không lấy được địa chỉ 2 cấp thì gán địa chỉ hiện tại vào, tránh tình trạng báo không tìm thấy địa chỉ.
+![](https://i.vgy.me/14V1B7.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/534
+
 ## [v.1.25.1031.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510310-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510310-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12510310-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Fix lỗi thông báo không tìm thấy tỉnh, xã
 ![](https://i.vgy.me/6mbu3J.png)
