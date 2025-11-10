@@ -6,6 +6,14 @@
 
 #
 
+## [v.1.25.1110.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511101-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Ordinal cho phép cấu hình tài khoản thông tuyến tại Kiosk và một số tính năng khác 
+- ✨: Thêm chức năng cấu hình độ tuổi khám bệnh, số lượt đăng ký tại Ordinal
+- ✨: khi quét thẻ BHYT hoặc CCCD nếu là bệnh nhân có đăng ký thông tin trước đó thì hỗ trợ lấy lại các thông tin cũ như: Nghế nghiệp, dân tộc, Quan hệ, Họ tên người quan hệ.
+![](https://i.vgy.me/jhBoC7.png)
+![](https://i.vgy.me/sKecwP.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/554
+
 ## [v.1.25.1110.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511100-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Register: BV Da Liễu bổ sung thêm thông tin khi quét CCCD tại KIOS lấy số thứ tự lại quầy tiếp nhận 
 - ✨: Cập nhật lại cccd và ngày cấp trong `current.dmbenhnhan` khi bắt số thứ tự đối với bệnh nhân đã từng khám tại bệnh viện 
