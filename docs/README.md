@@ -6,6 +6,11 @@
 
 #
 
+## [v.1.25.1110.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511100-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Register: BV Da Liễu bổ sung thêm thông tin khi quét CCCD tại KIOS lấy số thứ tự lại quầy tiếp nhận 
+- ✨: Cập nhật lại cccd và ngày cấp trong `current.dmbenhnhan` khi bắt số thứ tự đối với bệnh nhân đã từng khám tại bệnh viện 
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/548
+
 ## [v.1.25.1107.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511071-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511071-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511071-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Register: BV Da Liễu bổ sung thêm thông tin khi quét CCCD tại KIOS lấy số thứ tự lại quầy tiếp nhận 
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/548
