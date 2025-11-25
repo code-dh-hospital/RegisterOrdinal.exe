@@ -6,6 +6,12 @@
 
 #
 
+## [v.1.25.1125.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511250-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Ordinal ghi nhận thiếu tên xã, tên tỉnh chổ địa chỉ khi quét CCCD #634
+- ✨: Bổ sung lưu `maloaigiayto` đối với trường hợp quét cccd
+![](https://i.vgy.me/qkn0HZ.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/634
+
 ## [v.1.25.1117.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511173-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511173-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511173-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Ordinal: KIOS ĐKTP chưa load hết địa chỉ 2 cấp
 - 🐛: Fix lỗi không lấy được maxa đối với một số trường hợp đã map địa chỉ 2 cấp
