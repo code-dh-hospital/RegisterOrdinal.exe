@@ -6,6 +6,12 @@
 
 #
 
+## [v.1.25.1127.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511270-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Treatment: Giao diện TK Tổng hợp chưa load được mã nơi đăng ký ban đầu
+- 🐛: Bệnh nhân nhận bệnh thông qua quét KIOS. Sau đó xử trí nhập viện. Treatment -> TK Tổng hợp chưa load được mã nơi đăng ký ban đầu.
+![](https://i.vgy.me/zqb5fm.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/641
+
 ## [v.1.25.1125.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511250-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Ordinal ghi nhận thiếu tên xã, tên tỉnh chổ địa chỉ khi quét CCCD #634
 - ✨: Bổ sung lưu `maloaigiayto` đối với trường hợp quét cccd
