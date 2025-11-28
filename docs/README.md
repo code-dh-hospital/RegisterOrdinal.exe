@@ -6,6 +6,11 @@
 
 #
 
+## [v.1.25.1128.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511280-NasDHSolutions.json)</sup></sup></sub>
+- 📕: Bổ sung kiểm tra trước nếu địa chỉ hiện tại là 2 cấp thì không gọi function getmaxa() nữa.
+- 📕: Fix lỗi trường hợp function getmaxa() trả ra địa chỉ 2 cấp thì không lấy được tên xã, tỉnh.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/634
+
 ## [v.1.25.1127.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12511270-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Treatment: Giao diện TK Tổng hợp chưa load được mã nơi đăng ký ban đầu
 - 🐛: Bệnh nhân nhận bệnh thông qua quét KIOS. Sau đó xử trí nhập viện. Treatment -> TK Tổng hợp chưa load được mã nơi đăng ký ban đầu.
