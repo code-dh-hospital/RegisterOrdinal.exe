@@ -6,6 +6,12 @@
 
 #
 
+## [v.1.25.1215.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12512151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12512151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12512151-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Ordinal ghi nhận sai mã thẻ khi quét bằng thẻ BHYT
+- 🐛: Chưa ghi nhận được ngày 5 năm liên tục khi bệnh nhân đăng ký ngoài Kiosk
+![](https://i.vgy.me/WMFKKi.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/660
+
 ## [v.1.25.1215.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12512150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12512150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12512150-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Ordinal ghi nhận sai mã thẻ khi quét bằng thẻ BHYT
 - 🐛: Bệnh nhân quét nhiều lần trong ngày và chọn nhiều phòng khám Ordinal không chặn được.
