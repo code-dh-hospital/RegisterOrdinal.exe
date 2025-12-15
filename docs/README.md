@@ -6,6 +6,14 @@
 
 #
 
+## [v.1.25.1215.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12512150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12512150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12512150-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Ordinal ghi nhận sai mã thẻ khi quét bằng thẻ BHYT
+- 🐛: Bệnh nhân quét nhiều lần trong ngày và chọn nhiều phòng khám Ordinal không chặn được.
+- 🐛: Bảng dmthebhyt ghi nhận nhiều dòng cùng một mã thẻ và NHIỀU mã bệnh nhân.
+- 🐛: Không lấy được mã bệnh nhân cũ khi quét bằng thẻ BHYT khi cùng mã thẻ BHYT và còn hạn dùng
+![](https://i.vgy.me/U9su3b.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/660
+
 ## [v.1.25.1211.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12512111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12512111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12512111-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Ordinal ghi nhận sai mã thẻ khi quét bằng thẻ BHYT (Push lại)
 - ✨: Clear thông tin tại text (Quét thẻ BHYT/CCCD) trước mới nhận giá trị mới.
