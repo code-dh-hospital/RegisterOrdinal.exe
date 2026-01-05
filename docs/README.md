@@ -6,6 +6,12 @@
 
 #
 
+## [v.1.26.0105.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601051-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Ordinal: BV Trà Cú: Tự động hiển thị danh sách phòng khám cho người đăng ký chọn sau khi kiểm tra thông tuyến thành công nếu không có lỗi #625
+![](https://i.vgy.me/FjFbwU.png)
+![](https://i.vgy.me/kuD9SV.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/625
+
 ## [v.1.26.0105.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601050-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Ordinal: Load hạn thẻ khi quét KIOS
 ![](https://i.vgy.me/MNHpWY.png)
