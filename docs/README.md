@@ -6,6 +6,13 @@
 
 #
 
+## [v.1.26.0106.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601061-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Ordinal Bổ sung chức năng Login vào module mới cho lấy số thứ tự #621
+[Mô tả bổ sung tham số](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-mo-ta-bo-sung-tham-so-cau-hinh-chuc-nang-dang-nhap-tren-kios.md)
+![](https://i.vgy.me/zWJo4m.png)
+![](https://images-worker.tlt34.workers.dev/i/019b9225-cb80-765b-8cbc-baa321af5e9c)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/621
+
 ## [v.1.26.0106.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601060-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Ordinal Bổ sung chức năng Login vào module mới cho lấy số thứ tự #621
 [Mô tả bổ sung tham số](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-mo-ta-bo-sung-tham-so-cau-hinh-chuc-nang-dang-nhap-tren-kios.md)
