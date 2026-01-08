@@ -6,6 +6,11 @@
 
 #
 
+## [v.1.26.0108.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601082-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601082-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601082-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Cùng chuổi CCCD quét tại Register thì ghi nhận được đối tượng BHYT nhưng Quét tại Ordinal thì ghi nhận đối tượng Thu phí
+![](https://i.vgy.me/VFip44.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/621
+
 ## [v.1.26.0108.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601081-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Quét CCCD báo lỗi khi lấy số thứ tự. ( Quét mã bệnh nhân thì được )
 - 🐛: Tăng thời gian nghĩ khi đọc giữa 2 đoạn âm thanh.
