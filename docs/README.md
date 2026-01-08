@@ -6,6 +6,12 @@
 
 #
 
+## [v.1.26.0108.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601081-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Quét CCCD báo lỗi khi lấy số thứ tự. ( Quét mã bệnh nhân thì được )
+- 🐛: Tăng thời gian nghĩ khi đọc giữa 2 đoạn âm thanh.
+![](https://i.vgy.me/a8g0bu.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/625
+
 ## [v.1.26.0108.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601080-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Quét CCCD báo lỗi khi lấy số thứ tự. ( Quét mã bệnh nhân thì được )
 ![](https://i.vgy.me/a8g0bu.gif)
