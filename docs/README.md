@@ -6,6 +6,12 @@
 
 #
 
+## [v.1.26.0109.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601090-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Ordinal Bổ sung chức năng Login vào module mới cho lấy số thứ tự #621
+- 🐛: Chưa ghi nhận đúng tài khoản đăng nhập vào bảng psdangky.
+![](https://i.vgy.me/UjEHOS.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/621
+
 ## [v.1.26.0108.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601082-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601082-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601082-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Cùng chuổi CCCD quét tại Register thì ghi nhận được đối tượng BHYT nhưng Quét tại Ordinal thì ghi nhận đối tượng Thu phí
 ![](https://i.vgy.me/VFip44.gif)
