@@ -6,6 +6,13 @@
 
 #
 
+## [v.1.26.0110.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601100-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Ordinal: BV Trà Cú: Tự động In số thứ tự khám khi chọn phòng bỏ qua thao tác bấm 'Lấy số thứ tự', 'Thanh toán' #639
+![](https://i.vgy.me/YzNklL.png)
+![](https://i.vgy.me/cJZvDe.gif)
+![](https://i.vgy.me/JR7DQs.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/639
+
 ## [v.1.26.0109.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601092-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601092-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601092-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Ordinal: BV Trà Cú: Âm thanh mời bệnh nhân vào phòng khám số sau khi đăng ký #631
 - ✨: Đề nghị khi có thông báo có câu `Vui lòng ra quầy tiếp nhận đăng ký` thì cho đọc file dangkythatbai.wav để bệnh nhân dễ nhận biết.
