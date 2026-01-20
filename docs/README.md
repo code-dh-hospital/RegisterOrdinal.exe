@@ -6,6 +6,10 @@
 
 #
 
+## [v.1.26.0120.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601200-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Ordinal: BV Trà Cú: Quét đăng ký nhiều lần (CCCD, MABN, thẻ BHYT) phần mềm tự đăng ký phòng khám đầu tiên #694
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/694
+
 ## [v.1.26.0110.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601100-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Ordinal: BV Trà Cú: Tự động In số thứ tự khám khi chọn phòng bỏ qua thao tác bấm 'Lấy số thứ tự', 'Thanh toán' #639
 ![](https://i.vgy.me/YzNklL.png)
