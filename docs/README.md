@@ -6,6 +6,11 @@
 
 #
 
+## [v.1.26.0121.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601210-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Ordinal: BV Trà Cú: Quét CCCD hết hạn thẻ BHYT phần mềm ghi nhận số CCCD vào mã thẻ BHYT #709
+![](https://i.vgy.me/PF4jcO.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/709
+
 ## [v.1.26.0120.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601200-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Ordinal: BV Trà Cú: Quét đăng ký nhiều lần (CCCD, MABN, thẻ BHYT) phần mềm tự đăng ký phòng khám đầu tiên #694
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/694
