@@ -6,6 +6,14 @@
 
 #
 
+## [v.1.26.0122.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601222-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601222-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601222-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Ordinal: BV Trà Cú: Quét CCCD hết hạn thẻ BHYT phần mềm ghi nhận số CCCD vào mã thẻ BHYT #709.
+- 🐛: Bệnh nhân thu phí đã không ghi nhận thông tin số CCCD vào mã thẻ BHYT nhưng bệnh nhân BHYT ghi nhận sai mã thẻ BHYT.
+- 🐛: Bệnh nhân thu phí: chidinhcls công khám còn ghi nhận sai mã thẻ, psdangky còn ghi nhận ngày bắt đầu - kết thút thẻ và mã chữ cái (macc).
+![](https://i.vgy.me/YE8etI.png)
+![](https://i.vgy.me/v3vknC.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/709
+
 ## [v.1.26.0122.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601221-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601221-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12601221-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Ordinal: BV Trà Cú: Quét CCCD hết hạn thẻ BHYT phần mềm ghi nhận số CCCD vào mã thẻ BHYT #709
 ![](https://i.vgy.me/6ZOHK8.png)
