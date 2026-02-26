@@ -6,6 +6,12 @@
 
 #
 
+## [v.1.26.0226.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12602261-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12602261-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12602261-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - KIOS: Quét KIOS kiểm tra thêm trường hợp Họ tên bệnh nhân (ko tải được nên push lại)
+-  Nếu khác thông tin Họ tên, ngày sinh thì cảnh báo để khách hàng vào nơi tiếp nhận xử lý.
+![](https://i.vgy.me/HyxtRr.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/760
+
 ## [v.1.26.0226.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12602260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12602260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12602260-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - KIOS: Quét KIOS kiểm tra thêm trường hợp Họ tên bệnh nhân
 -  Nếu khác thông tin Họ tên, ngày sinh thì cảnh báo để khách hàng vào nơi tiếp nhận xử lý.
