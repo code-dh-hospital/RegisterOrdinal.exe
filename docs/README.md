@@ -6,6 +6,11 @@
 
 #
 
+## [v.1.26.0410.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604100-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - KIOS: Chưa cảnh báo khi bệnh nhân nhận bệnh lần 2 theo tham số nhanbenhnlan #811
+![](https://i.vgy.me/kx4G7D.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/811
+
 ## [v.1.26.0327.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12603271-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12603271-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12603271-NasDHSolutions.json)</sup></sup></sub>
 (Không tải được nên push lại)
 - 🐛: Lỗi - KIOS: Thẻ có check hỗ trợ chi phí vân chuyển => trường vanchuyen trong current.psdangky ghi nhận chưa đúng #797
