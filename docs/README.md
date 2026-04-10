@@ -6,6 +6,13 @@
 
 #
 
+## [v.1.26.0410.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604103-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604103-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604103-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - KIOS: Chưa cảnh báo khi bệnh nhân nhận bệnh lần 2 theo tham số nhanbenhnlan #811
+- Trong cùng ngày, trường hợp thẻ BHYT đã có đăng ký bằng HIS Register, Prescription, thì khi đăng ký quét KIOS, KIOS mới bắt theo tham số nhanbenhnlan. Trường hợp thẻ BHYT, chưa có đăng ký bằng HIS (Register, Precription),thì khi đăng ký quét KIOS, KIOS sẽ không bắt theo tham số trên. Ví dụ: BN đăng ký lần 1 quét KIOS ra phiếu số thứ tự (STT), nhưng vô tình làm mất STT thì khi đăng ký quét lần 2 vẫn sẽ in lại STT bình thường!
+![](https://i.vgy.me/lxd8AV.gif)
+![](https://i.vgy.me/sfRPw9.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/811
+
 ## [v.1.26.0410.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604102-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604102-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604102-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - KIOS: Chưa cảnh báo khi bệnh nhân nhận bệnh lần 2 theo tham số nhanbenhnlan #811
 ![](https://i.vgy.me/QsL3ms.png)
