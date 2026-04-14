@@ -6,6 +6,12 @@
 
 #
 
+## [v.1.26.0414.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604141-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604141-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604141-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - KIOS: Đăng ký nhận bệnh trước giờ kết thúc khám gần nhất #730
+- 🐛: Chỉnh lại khi kiểm tra trong bảng `current.bnnoitru` chỉ kiểm tra theo điều kiện `mathe`
+![](https://i.vgy.me/cJJ9wZ.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/730
+
 ## [v.1.26.0414.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604140-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604140-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604140-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - KIOS: Đăng ký nhận bệnh trước giờ kết thúc khám gần nhất #730
 ![](https://i.vgy.me/BIRpQ5.gif)
