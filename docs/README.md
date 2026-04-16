@@ -6,6 +6,11 @@
 
 #
 
+## [v.1.26.0416.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604161-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604161-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604161-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Trường hợp không kiểm tra được thông tuyến thì không cho nhận bệnh. Cảnh báo `Không kiểm tra được thông tuyến, Vui lòng ra quầy tiếp nhận để đăng ký`
+![](https://i.vgy.me/jpzbzN.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/547
+
 ## [v.1.26.0416.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604160-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Bỏ chức năng kiểm tra mã quyền lợi theo đối tượng.
 ![](https://i.vgy.me/dJpOVc.gif)
