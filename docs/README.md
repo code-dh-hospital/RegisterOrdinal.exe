@@ -6,6 +6,13 @@
 
 #
 
+## [v.1.26.0422.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604220-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - KIOS: Quét CCCD load mã BN khác so với Register #826
+- 🐛: Do hiện tại khi quét CCCD ordinal đang dựa vào mã cccd để kiểm tra `current.dmbenhnhan` và lấy mabn, tuy nhiên có trường hợp `current.dmbenhnhan` có nhìu rows cùng mã cccd nhưng khác mabn nên lấy sai rows. 
+- 🐛: Fix - Sau khi kiểm tra thông tuyến, dựa vào mã thẻ kiểm tra bảng `current.dmthebhyt` để lấy mabn
+![](https://i.vgy.me/rJg1Pu.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/826
+
 ## [v.1.26.0416.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604162-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604162-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604162-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Trường hợp không kiểm tra được thông tuyến thì không cho nhận bệnh. Cảnh báo `Không kiểm tra được thông tuyến, Vui lòng ra quầy tiếp nhận để đăng ký`
 - 🐛: bổ sung thêm điều kiện thẻ 'TE'
