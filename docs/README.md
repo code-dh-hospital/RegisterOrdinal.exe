@@ -6,6 +6,11 @@
 
 #
 
+## [v.1.26.0515.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12605150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12605150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12605150-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Chuẩn hóa dữ liệu Unicode (NFC) trước khi lưu: Họ tên, địa chỉ, nơi công tác.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/851#issuecomment-27893
+
 ## [v.1.26.0422.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12604220-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - KIOS: Quét CCCD load mã BN khác so với Register #826
 - 🐛: Do hiện tại khi quét CCCD ordinal đang dựa vào mã cccd để kiểm tra `current.dmbenhnhan` và lấy mabn, tuy nhiên có trường hợp `current.dmbenhnhan` có nhìu rows cùng mã cccd nhưng khác mabn nên lấy sai rows. 
