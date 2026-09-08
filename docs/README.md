@@ -6,6 +6,11 @@
 
 #
 
+## [v.1.26.0908.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12609080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12609080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12609080-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: KIOS chưa cảnh báo thẻ hết hạn.
+![](https://i.vgy.me/qJHadf.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/547
+
 ## [v.1.26.0515.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12605150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12605150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12605150-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Chuẩn hóa dữ liệu Unicode (NFC) trước khi lưu: Họ tên, địa chỉ, nơi công tác.
