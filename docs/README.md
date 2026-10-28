@@ -6,6 +6,15 @@
 
 #
 
+## [v.1.26.1028.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12610281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12610281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12610281-NasDHSolutions.json)</sup></sup></sub>
+- ✨: RegisterOrdinal - Chọn phòng khám: khám thường tính công khám theo đối tượng của người bệnh (BHYT -> công khám cấu hình cho BHYT).
+- 🐛: Khám thường đối tượng BHYT ghi công khám CO17 (100.000) thay vì KH218 (39.800); lưu đăng ký báo invalid input syntax for type numeric "100000,000000" (LOI #1069).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1069 (hdhiswork/LOI#1069)
+- 📗: FrmChonPhongKham.cs: getCongKham / Insert dùng GetDoiTuong(doiTuong) thay vì (dichvu == 1) ? doiTuong : "06"; chidinhcls.giabhdm truyền dạng số (bỏ + ""). Thực hiện theo mô tả [Mô tả lỗi 1069 - Ordinal công khám BHYT khám thường](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Ordinal/Mo-ta-loi-1069-ordinal-cong-kham-bhyt-kham-thuong.md)
+- 📕: Không phát sinh cột mới. Khám dịch vụ giữ nguyên.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1069/debug-image-ordinal-frmchonphongkham-congkham-bhyt-luu.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1069/debug-image-ordinal-chidinhcls-kham-thuong-bhyt-kh218-thucte.png)
+
 ## [v.1.26.1028.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12610280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12610280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12610280-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Đơn vị dùng KIOS QR (mã riêng dhkiosqr) vẫn mở được chức năng Bắt số thứ tự nhận thuốc khi máy cấu hình chọn chức năng này.
 - 🐛: Cấu hình Bắt số thứ tự nhận thuốc nhưng mở lại phần mềm thì vào KIOS Vietinbank, không vào được chức năng (LOI #1068).
