@@ -6,6 +6,14 @@
 
 #
 
+## [v.1.26.1031.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12610310-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12610310-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12610310-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung cơ chế phân loại đơn giá, giabh, thành tiền, chênh lệch công khám chính xác theo đối tượng người bệnh (BHYT vs Thu phí) và loại hình khám (Khám thường vs Khám dịch vụ) tại Kios RegisterOrdinal.
+- 🐛: Sửa lỗi RegisterOrdinal ghi sai đơn giá (70.000 thay vì 39.800) và phát sinh tiền chênh lệch sai quy định (30.200 đ) khi bệnh nhân BHYT đăng ký khám thường tại FrmChonPhongKham (Comment #51212).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1069#issuecomment-51212 (hdhiswork/LOI#1069)
+- 📗: Mo-ta-he-thong/Ordinal/Mo-ta-loi-1069-ordinal-cong-kham-bhyt-kham-thuong.md
+- 📕: 1. Chạy RegisterOrdinal, quét thẻ BHYT hoặc nạp BN đối tượng BHYT (01); 2. Chọn Khám thường (dichvu = 0), chọn phòng khám nội; 3. Xác nhận đăng ký và kiểm tra bảng current.chidinhcls: dongia = 39.800, giabh = 39.800, thanhtien = 39.800, chenhlech = 0; 4. Bác sĩ mở phòng khám ngoại trú không bị tính tiền chênh lệch 30.200 đ.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1069/debug-image-ordinal-frmchonphongkham-c51212-congkham-bhyt-khamthuong.png)
+
 ## [v.1.26.1029.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12610290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12610290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FRegisterOrdinalexe%2F12610290-NasDHSolutions.json)</sup></sup></sub>
 - ✨: RegisterOrdinal - Chọn phòng khám: lưu đăng ký đúng trên máy định dạng số Việt Nam (tham số luongtt dạng "2,530,000").
 - 🐛: Đăng ký khám thường / khám dịch vụ (thanh toán) báo FormatException "Input string was not in a correct format" (LOI #1069 comment #51057).
